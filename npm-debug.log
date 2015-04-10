@@ -1,0 +1,2124 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'mongoskin' ]
+2 info using npm@2.7.4
+3 info using node@v0.12.2
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 silly cache add args [ 'mongoskin', null ]
+6 verbose cache add spec mongoskin
+7 silly cache add parsed spec { raw: 'mongoskin',
+7 silly cache add   scope: null,
+7 silly cache add   name: 'mongoskin',
+7 silly cache add   rawSpec: '',
+7 silly cache add   spec: '*',
+7 silly cache add   type: 'range' }
+8 verbose addNamed mongoskin@*
+9 silly addNamed semver.valid null
+10 silly addNamed semver.validRange *
+11 silly addNameRange { name: 'mongoskin', range: '*', hasData: false }
+12 silly mapToRegistry name mongoskin
+13 silly mapToRegistry using default registry
+14 silly mapToRegistry registry https://registry.npmjs.org/
+15 silly mapToRegistry uri https://registry.npmjs.org/mongoskin
+16 verbose addNameRange registry:https://registry.npmjs.org/mongoskin not in flight; fetching
+17 verbose request uri https://registry.npmjs.org/mongoskin
+18 verbose request no auth needed
+19 info attempt registry request try #1 at 1:25:08 PM
+20 verbose request id d17f97c9ef297d45
+21 verbose etag "BYCLMWQB9U0HH1QI1HAH1VX8E"
+22 http request GET https://registry.npmjs.org/mongoskin
+23 http 304 https://registry.npmjs.org/mongoskin
+24 silly get cb [ 304,
+24 silly get   { date: 'Fri, 10 Apr 2015 16:25:07 GMT',
+24 silly get     server: 'Apache',
+24 silly get     via: '1.1 varnish',
+24 silly get     'last-modified': 'Fri, 10 Apr 2015 16:25:07 GMT',
+24 silly get     'cache-control': 'max-age=60',
+24 silly get     etag: '"BYCLMWQB9U0HH1QI1HAH1VX8E"',
+24 silly get     age: '0',
+24 silly get     'x-served-by': 'cache-iad2137-IAD',
+24 silly get     'x-cache': 'HIT',
+24 silly get     'x-cache-hits': '1',
+24 silly get     'x-timer': 'S1428683107.810440,VS0,VE13',
+24 silly get     vary: 'Accept',
+24 silly get     'content-length': '0',
+24 silly get     'keep-alive': 'timeout=10, max=50',
+24 silly get     connection: 'Keep-Alive' } ]
+25 verbose etag https://registry.npmjs.org/mongoskin from cache
+26 verbose get saving mongoskin to C:\Users\IBM_ADMIN\AppData\Roaming\npm-cache\registry.npmjs.org\mongoskin\.cache.json
+27 silly addNameRange number 2 { name: 'mongoskin', range: '*', hasData: true }
+28 silly addNameRange versions [ 'mongoskin',
+28 silly addNameRange   [ '0.1.0',
+28 silly addNameRange     '0.1.1',
+28 silly addNameRange     '0.1.2',
+28 silly addNameRange     '0.1.3',
+28 silly addNameRange     '0.2.0',
+28 silly addNameRange     '0.2.1',
+28 silly addNameRange     '0.2.2',
+28 silly addNameRange     '0.2.3',
+28 silly addNameRange     '0.3.0',
+28 silly addNameRange     '0.3.3',
+28 silly addNameRange     '0.3.4',
+28 silly addNameRange     '0.3.5',
+28 silly addNameRange     '0.3.6',
+28 silly addNameRange     '0.3.7',
+28 silly addNameRange     '0.4.0',
+28 silly addNameRange     '0.4.1',
+28 silly addNameRange     '0.4.2',
+28 silly addNameRange     '0.4.3',
+28 silly addNameRange     '0.4.4',
+28 silly addNameRange     '0.5.0',
+28 silly addNameRange     '0.6.0',
+28 silly addNameRange     '0.6.1',
+28 silly addNameRange     '1.3.20-alpha',
+28 silly addNameRange     '1.3.20',
+28 silly addNameRange     '1.3.21',
+28 silly addNameRange     '1.3.22',
+28 silly addNameRange     '1.3.23',
+28 silly addNameRange     '1.4.0',
+28 silly addNameRange     '1.4.1',
+28 silly addNameRange     '1.4.2',
+28 silly addNameRange     '1.4.3',
+28 silly addNameRange     '1.4.4',
+28 silly addNameRange     '1.4.10-beta',
+28 silly addNameRange     '1.4.10',
+28 silly addNameRange     '1.4.11',
+28 silly addNameRange     '1.4.12',
+28 silly addNameRange     '1.4.13' ] ]
+29 verbose addNamed mongoskin@1.4.13
+30 silly addNamed semver.valid 1.4.13
+31 silly addNamed semver.validRange 1.4.13
+32 silly cache afterAdd mongoskin@1.4.13
+33 verbose afterAdd C:\Users\IBM_ADMIN\AppData\Roaming\npm-cache\mongoskin\1.4.13\package\package.json not in flight; writing
+34 verbose afterAdd C:\Users\IBM_ADMIN\AppData\Roaming\npm-cache\mongoskin\1.4.13\package\package.json written
+35 silly install resolved [ { name: 'mongoskin',
+35 silly install resolved     description: 'The future layer above node-mongodb-native',
+35 silly install resolved     version: '1.4.13',
+35 silly install resolved     author: { name: 'Gui Lin', email: 'guileen@gmail.com' },
+35 silly install resolved     homepage: 'https://github.com/kissjs/node-mongoskin',
+35 silly install resolved     repository:
+35 silly install resolved      { type: 'git',
+35 silly install resolved        url: 'git://github.com/kissjs/node-mongoskin.git' },
+35 silly install resolved     bugs: { url: 'https://github.com/kissjs/node-mongoskin/issues' },
+35 silly install resolved     main: './index.js',
+35 silly install resolved     keywords: [ 'mongodb', 'database', 'nosql' ],
+35 silly install resolved     engines: { node: '>= 0.4.0' },
+35 silly install resolved     peerDependencies: { mongodb: '~1.4' },
+35 silly install resolved     devDependencies:
+35 silly install resolved      { mocha: '~1.17.1',
+35 silly install resolved        blanket: '~1.1.6',
+35 silly install resolved        coveralls: '~2.10.0',
+35 silly install resolved        'mocha-lcov-reporter': '0.0.1',
+35 silly install resolved        'travis-cov': '~0.2.5',
+35 silly install resolved        mongodb: '~1.4',
+35 silly install resolved        should: '~3.1.2' },
+35 silly install resolved     config: { blanket: [Object], 'travis-cov': [Object] },
+35 silly install resolved     scripts: { test: 'mocha -R travis-cov' },
+35 silly install resolved     directories: { example: './examples', lib: './lib/mongoskin' },
+35 silly install resolved     license: 'MIT',
+35 silly install resolved     contributors:
+35 silly install resolved      [ [Object],
+35 silly install resolved        [Object],
+35 silly install resolved        [Object],
+35 silly install resolved        [Object],
+35 silly install resolved        [Object],
+35 silly install resolved        [Object],
+35 silly install resolved        [Object],
+35 silly install resolved        [Object],
+35 silly install resolved        [Object],
+35 silly install resolved        [Object],
+35 silly install resolved        [Object],
+35 silly install resolved        [Object] ],
+35 silly install resolved     gitHead: '8dcf669ff808463191033cc1e3917caa2bc41984',
+35 silly install resolved     _id: 'mongoskin@1.4.13',
+35 silly install resolved     _shasum: '1deec5b5dcc25180a9a19c59956c098f8c12ee7d',
+35 silly install resolved     _from: 'mongoskin@*',
+35 silly install resolved     _npmVersion: '2.5.1',
+35 silly install resolved     _nodeVersion: '0.12.0',
+35 silly install resolved     _npmUser: { name: 'vkarpov15', email: 'val@karpov.io' },
+35 silly install resolved     maintainers: [ [Object], [Object], [Object] ],
+35 silly install resolved     dist:
+35 silly install resolved      { shasum: '1deec5b5dcc25180a9a19c59956c098f8c12ee7d',
+35 silly install resolved        tarball: 'http://registry.npmjs.org/mongoskin/-/mongoskin-1.4.13.tgz' },
+35 silly install resolved     _resolved: 'https://registry.npmjs.org/mongoskin/-/mongoskin-1.4.13.tgz',
+35 silly install resolved     readme: 'ERROR: No README data found!' } ]
+36 info install mongoskin@1.4.13 into C:\Users\IBM_ADMIN\AppData\Roaming\npm
+37 info installOne mongoskin@1.4.13
+38 verbose installOne of mongoskin to C:\Users\IBM_ADMIN\AppData\Roaming\npm not in flight; installing
+39 verbose lock using C:\Users\IBM_ADMIN\AppData\Roaming\npm-cache\_locks\mongoskin-fed001007508ed40.lock for C:\Users\IBM_ADMIN\AppData\Roaming\npm\node_modules\mongoskin
+40 silly install write writing mongoskin 1.4.13 to C:\Users\IBM_ADMIN\AppData\Roaming\npm\node_modules\mongoskin
+41 silly cache addNamed cb mongoskin@1.4.13
+42 verbose unbuild node_modules\mongoskin
+43 silly gentlyRm C:\Users\IBM_ADMIN\AppData\Roaming\npm\node_modules\mongoskin is being purged from base C:\Users\IBM_ADMIN\AppData\Roaming\npm
+44 verbose gentlyRm don't care about contents; nuking C:\Users\IBM_ADMIN\AppData\Roaming\npm\node_modules\mongoskin
+45 verbose tar unpack C:\Users\IBM_ADMIN\AppData\Roaming\npm-cache\mongoskin\1.4.13\package.tgz
+46 verbose tar unpacking to C:\Users\IBM_ADMIN\AppData\Roaming\npm\node_modules\mongoskin
+47 silly gentlyRm C:\Users\IBM_ADMIN\AppData\Roaming\npm\node_modules\mongoskin is being purged
+48 verbose gentlyRm don't care about contents; nuking C:\Users\IBM_ADMIN\AppData\Roaming\npm\node_modules\mongoskin
+49 silly gunzTarPerm modes [ '777', '666' ]
+50 silly gunzTarPerm extractEntry package.json
+51 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+52 silly gunzTarPerm extractEntry .npmignore
+53 silly gunzTarPerm modified mode [ '.npmignore', 436, 438 ]
+54 silly gunzTarPerm extractEntry LICENSE
+55 silly gunzTarPerm modified mode [ 'LICENSE', 436, 438 ]
+56 silly gunzTarPerm extractEntry index.js
+57 silly gunzTarPerm modified mode [ 'index.js', 436, 438 ]
+58 silly gunzTarPerm extractEntry Readme.md
+59 silly gunzTarPerm modified mode [ 'Readme.md', 436, 438 ]
+60 silly gunzTarPerm extractEntry History.md
+61 silly gunzTarPerm modified mode [ 'History.md', 436, 438 ]
+62 silly gunzTarPerm extractEntry Makefile
+63 silly gunzTarPerm modified mode [ 'Makefile', 436, 438 ]
+64 silly gunzTarPerm extractEntry .jshintrc
+65 silly gunzTarPerm modified mode [ '.jshintrc', 436, 438 ]
+66 silly gunzTarPerm extractEntry examples/admin.js
+67 silly gunzTarPerm modified mode [ 'examples/admin.js', 436, 438 ]
+68 silly gunzTarPerm extractEntry examples/close.js
+69 silly gunzTarPerm modified mode [ 'examples/close.js', 436, 438 ]
+70 silly gunzTarPerm extractEntry examples/config.js
+71 silly gunzTarPerm modified mode [ 'examples/config.js', 436, 438 ]
+72 silly gunzTarPerm extractEntry examples/generateId.js
+73 silly gunzTarPerm modified mode [ 'examples/generateId.js', 436, 438 ]
+74 silly gunzTarPerm extractEntry examples/gridfs.js
+75 silly gunzTarPerm modified mode [ 'examples/gridfs.js', 436, 438 ]
+76 silly gunzTarPerm extractEntry examples/insert.js
+77 silly gunzTarPerm modified mode [ 'examples/insert.js', 436, 438 ]
+78 silly gunzTarPerm extractEntry examples/replSetBenchmark.js
+79 silly gunzTarPerm modified mode [ 'examples/replSetBenchmark.js', 436, 438 ]
+80 silly gunzTarPerm extractEntry examples/replset.js
+81 silly gunzTarPerm modified mode [ 'examples/replset.js', 436, 438 ]
+82 silly gunzTarPerm extractEntry examples/update.js
+83 silly gunzTarPerm modified mode [ 'examples/update.js', 436, 438 ]
+84 silly gunzTarPerm extractEntry .travis.yml
+85 silly gunzTarPerm modified mode [ '.travis.yml', 436, 438 ]
+86 silly gunzTarPerm extractEntry lib/admin.js
+87 silly gunzTarPerm modified mode [ 'lib/admin.js', 436, 438 ]
+88 silly gunzTarPerm extractEntry lib/constant.js
+89 silly gunzTarPerm modified mode [ 'lib/constant.js', 436, 438 ]
+90 silly gunzTarPerm extractEntry lib/cursor.js
+91 silly gunzTarPerm modified mode [ 'lib/cursor.js', 436, 438 ]
+92 silly gunzTarPerm extractEntry lib/db.js
+93 silly gunzTarPerm modified mode [ 'lib/db.js', 436, 438 ]
+94 silly gunzTarPerm extractEntry lib/collection.js
+95 silly gunzTarPerm modified mode [ 'lib/collection.js', 436, 438 ]
+96 silly gunzTarPerm extractEntry lib/grid_store.js
+97 silly gunzTarPerm modified mode [ 'lib/grid_store.js', 436, 438 ]
+98 silly gunzTarPerm extractEntry lib/helper.js
+99 silly gunzTarPerm modified mode [ 'lib/helper.js', 436, 438 ]
+100 silly gunzTarPerm extractEntry lib/index.js
+101 silly gunzTarPerm modified mode [ 'lib/index.js', 436, 438 ]
+102 silly gunzTarPerm extractEntry lib/mongo_client.js
+103 silly gunzTarPerm modified mode [ 'lib/mongo_client.js', 436, 438 ]
+104 silly gunzTarPerm extractEntry lib/utils.js
+105 silly gunzTarPerm modified mode [ 'lib/utils.js', 436, 438 ]
+106 silly gunzTarPerm extractEntry lib/grid.js
+107 silly gunzTarPerm modified mode [ 'lib/grid.js', 436, 438 ]
+108 silly gunzTarPerm extractEntry AUTHORS
+109 silly gunzTarPerm modified mode [ 'AUTHORS', 436, 438 ]
+110 info preinstall mongoskin@1.4.13
+111 silly prepareForInstallMany adding mongodb@~1.4 from mongoskin peerDependencies
+112 warn peerDependencies The peer dependency mongodb@~1.4 included from mongoskin will no
+113 warn peerDependencies longer be automatically installed to fulfill the peerDependency
+114 warn peerDependencies in npm 3+. Your application will need to depend on it explicitly.
+115 silly install resolved []
+116 verbose about to build C:\Users\IBM_ADMIN\AppData\Roaming\npm\node_modules\mongoskin
+117 info build C:\Users\IBM_ADMIN\AppData\Roaming\npm\node_modules\mongoskin
+118 verbose linkStuff [ true,
+118 verbose linkStuff   'C:\\Users\\IBM_ADMIN\\AppData\\Roaming\\npm\\node_modules',
+118 verbose linkStuff   true,
+118 verbose linkStuff   'C:\\Users\\IBM_ADMIN\\AppData\\Roaming\\npm\\node_modules' ]
+119 info linkStuff mongoskin@1.4.13
+120 verbose linkBins mongoskin@1.4.13
+121 verbose linkMans mongoskin@1.4.13
+122 verbose rebuildBundles mongoskin@1.4.13
+123 info install mongoskin@1.4.13
+124 info postinstall mongoskin@1.4.13
+125 silly cache add args [ 'mongodb@~1.4', null ]
+126 verbose cache add spec mongodb@~1.4
+127 silly cache add parsed spec { raw: 'mongodb@~1.4',
+127 silly cache add   scope: null,
+127 silly cache add   name: 'mongodb',
+127 silly cache add   rawSpec: '~1.4',
+127 silly cache add   spec: '>=1.4.0 <1.5.0',
+127 silly cache add   type: 'range' }
+128 verbose addNamed mongodb@>=1.4.0 <1.5.0
+129 silly addNamed semver.valid null
+130 silly addNamed semver.validRange >=1.4.0 <1.5.0
+131 silly addNameRange { name: 'mongodb', range: '>=1.4.0 <1.5.0', hasData: false }
+132 silly mapToRegistry name mongodb
+133 silly mapToRegistry using default registry
+134 silly mapToRegistry registry https://registry.npmjs.org/
+135 silly mapToRegistry uri https://registry.npmjs.org/mongodb
+136 verbose addNameRange registry:https://registry.npmjs.org/mongodb not in flight; fetching
+137 verbose request uri https://registry.npmjs.org/mongodb
+138 verbose request no auth needed
+139 info attempt registry request try #1 at 1:25:10 PM
+140 verbose etag "7ZO8X69521ZY1KFK3PYUIZD5B"
+141 http request GET https://registry.npmjs.org/mongodb
+142 http 304 https://registry.npmjs.org/mongodb
+143 silly get cb [ 304,
+143 silly get   { date: 'Fri, 10 Apr 2015 16:25:08 GMT',
+143 silly get     server: 'Apache',
+143 silly get     via: '1.1 varnish',
+143 silly get     'last-modified': 'Fri, 10 Apr 2015 16:25:08 GMT',
+143 silly get     'cache-control': 'max-age=60',
+143 silly get     etag: '"7ZO8X69521ZY1KFK3PYUIZD5B"',
+143 silly get     age: '0',
+143 silly get     'x-served-by': 'cache-iad2137-IAD',
+143 silly get     'x-cache': 'HIT',
+143 silly get     'x-cache-hits': '1',
+143 silly get     'x-timer': 'S1428683108.769989,VS0,VE18',
+143 silly get     vary: 'Accept',
+143 silly get     'content-length': '0',
+143 silly get     'keep-alive': 'timeout=10, max=50',
+143 silly get     connection: 'Keep-Alive' } ]
+144 verbose etag https://registry.npmjs.org/mongodb from cache
+145 verbose get saving mongodb to C:\Users\IBM_ADMIN\AppData\Roaming\npm-cache\registry.npmjs.org\mongodb\.cache.json
+146 silly addNameRange number 2 { name: 'mongodb', range: '>=1.4.0 <1.5.0', hasData: true }
+147 silly addNameRange versions [ 'mongodb',
+147 silly addNameRange   [ '0.9.4',
+147 silly addNameRange     '0.9.4-4',
+147 silly addNameRange     '0.9.3',
+147 silly addNameRange     '0.9.1',
+147 silly addNameRange     '0.9.2',
+147 silly addNameRange     '0.9.6-7',
+147 silly addNameRange     '0.9.6-8',
+147 silly addNameRange     '0.9.6-9',
+147 silly addNameRange     '0.9.6-10',
+147 silly addNameRange     '0.9.6-11',
+147 silly addNameRange     '0.9.6-12',
+147 silly addNameRange     '0.9.6-13',
+147 silly addNameRange     '0.9.6-14',
+147 silly addNameRange     '0.9.6-15',
+147 silly addNameRange     '0.9.6-16',
+147 silly addNameRange     '0.9.6-17',
+147 silly addNameRange     '0.9.6-18',
+147 silly addNameRange     '0.9.6-19',
+147 silly addNameRange     '0.9.6-20',
+147 silly addNameRange     '0.9.6-21',
+147 silly addNameRange     '0.9.6-22',
+147 silly addNameRange     '0.9.6-23',
+147 silly addNameRange     '0.9.7',
+147 silly addNameRange     '0.9.7-0',
+147 silly addNameRange     '0.9.7-1',
+147 silly addNameRange     '0.9.7-1.1',
+147 silly addNameRange     '0.9.7-1.2',
+147 silly addNameRange     '0.9.7-1.3',
+147 silly addNameRange     '0.9.7-1.4',
+147 silly addNameRange     '0.9.7-2',
+147 silly addNameRange     '0.9.7-2-1',
+147 silly addNameRange     '0.9.7-2-2',
+147 silly addNameRange     '0.9.7-2-3',
+147 silly addNameRange     '0.9.7-2-4',
+147 silly addNameRange     '0.9.7-2-5',
+147 silly addNameRange     '0.9.7-3',
+147 silly addNameRange     '0.9.7-3-1',
+147 silly addNameRange     '0.9.7-3-2',
+147 silly addNameRange     '0.9.7-3-3',
+147 silly addNameRange     '0.9.7-3-4',
+147 silly addNameRange     '0.9.7-3-5',
+147 silly addNameRange     '0.9.8',
+147 silly addNameRange     '0.9.8-1',
+147 silly addNameRange     '0.9.8-2',
+147 silly addNameRange     '0.9.8-3',
+147 silly addNameRange     '0.9.8-4',
+147 silly addNameRange     '0.9.8-5',
+147 silly addNameRange     '0.9.8-6',
+147 silly addNameRange     '0.9.8-7',
+147 silly addNameRange     '0.9.9',
+147 silly addNameRange     '0.9.9-1',
+147 silly addNameRange     '0.9.9-2',
+147 silly addNameRange     '0.9.9-3',
+147 silly addNameRange     '0.9.9-4',
+147 silly addNameRange     '0.9.9-5',
+147 silly addNameRange     '0.9.9-6',
+147 silly addNameRange     '0.9.9-7',
+147 silly addNameRange     '0.9.9-8',
+147 silly addNameRange     '1.0.0',
+147 silly addNameRange     '1.0.1',
+147 silly addNameRange     '1.0.2',
+147 silly addNameRange     '1.1.0-beta',
+147 silly addNameRange     '1.1.0',
+147 silly addNameRange     '1.1.1',
+147 silly addNameRange     '1.1.2',
+147 silly addNameRange     '1.1.3',
+147 silly addNameRange     '1.1.4',
+147 silly addNameRange     '1.1.5',
+147 silly addNameRange     '1.1.6',
+147 silly addNameRange     '1.1.7',
+147 silly addNameRange     '1.1.8',
+147 silly addNameRange     '1.1.9',
+147 silly addNameRange     '1.1.10',
+147 silly addNameRange     '1.1.11',
+147 silly addNameRange     '1.2.0',
+147 silly addNameRange     '1.2.1',
+147 silly addNameRange     '1.2.2',
+147 silly addNameRange     '1.2.3',
+147 silly addNameRange     '1.2.4',
+147 silly addNameRange     '1.2.5',
+147 silly addNameRange     '1.2.6',
+147 silly addNameRange     '1.2.7',
+147 silly addNameRange     '1.2.8',
+147 silly addNameRange     '1.2.9',
+147 silly addNameRange     '1.2.10',
+147 silly addNameRange     '1.2.11',
+147 silly addNameRange     '1.2.12',
+147 silly addNameRange     '1.2.13',
+147 silly addNameRange     '1.2.14',
+147 silly addNameRange     '1.3.0',
+147 silly addNameRange     '1.3.1',
+147 silly addNameRange     '1.3.2',
+147 silly addNameRange     '1.3.3',
+147 silly addNameRange     '1.3.4',
+147 silly addNameRange     '1.3.5',
+147 silly addNameRange     '1.3.6',
+147 silly addNameRange     '1.3.7',
+147 silly addNameRange     '1.3.8',
+147 silly addNameRange     '1.3.9',
+147 silly addNameRange     '1.3.10',
+147 silly addNameRange     '1.3.11',
+147 silly addNameRange     '1.3.12',
+147 silly addNameRange     '1.3.14',
+147 silly addNameRange     '1.3.15',
+147 silly addNameRange     '1.3.17',
+147 silly addNameRange     '1.3.18',
+147 silly addNameRange     '1.3.19',
+147 silly addNameRange     '1.4.0-rc2',
+147 silly addNameRange     '1.3.20',
+147 silly addNameRange     '1.4.0-rc3',
+147 silly addNameRange     '1.3.21',
+147 silly addNameRange     '1.3.22',
+147 silly addNameRange     '1.3.23',
+147 silly addNameRange     '1.4.0-rc4',
+147 silly addNameRange     '1.4.0-rc5',
+147 silly addNameRange     '1.4.0-rc6',
+147 silly addNameRange     '1.4.0-rc7',
+147 silly addNameRange     '1.4.0-rc8',
+147 silly addNameRange     '1.4.0-rc9',
+147 silly addNameRange     '1.4.0-rc10',
+147 silly addNameRange     '1.4.0',
+147 silly addNameRange     '1.4.1',
+147 silly addNameRange     '1.4.2',
+147 silly addNameRange     '1.4.3',
+147 silly addNameRange     '1.4.4',
+147 silly addNameRange     '1.4.5',
+147 silly addNameRange     '1.4.6',
+147 silly addNameRange     '1.4.7',
+147 silly addNameRange     '1.4.8',
+147 silly addNameRange     '1.4.9',
+147 silly addNameRange     '1.4.10',
+147 silly addNameRange     '2.0.0-alpha1',
+147 silly addNameRange     '1.4.11',
+147 silly addNameRange     '1.4.12',
+147 silly addNameRange     '1.4.14',
+147 silly addNameRange     '1.4.15',
+147 silly addNameRange     '1.4.16',
+147 silly addNameRange     '1.4.17',
+147 silly addNameRange     '2.0.0-alpha2',
+147 silly addNameRange     '1.4.18',
+147 silly addNameRange     '2.0.0',
+147 silly addNameRange     '2.0.1',
+147 silly addNameRange     '2.0.2',
+147 silly addNameRange     '1.4.19',
+147 silly addNameRange     '2.0.3',
+147 silly addNameRange     '2.0.4',
+147 silly addNameRange     '2.0.5',
+147 silly addNameRange     '2.0.6',
+147 silly addNameRange     '1.4.20',
+147 silly addNameRange     '1.4.22',
+147 silly addNameRange     '2.0.7',
+147 silly addNameRange     '2.0.8',
+147 silly addNameRange     '2.0.9',
+147 silly addNameRange     '1.4.23',
+147 silly addNameRange     '2.0.10',
+147 silly addNameRange     '1.4.24',
+147 silly addNameRange     '2.0.11',
+147 silly addNameRange     '1.4.25',
+147 silly addNameRange     '2.0.12',
+147 silly addNameRange     '1.4.26',
+147 silly addNameRange     '1.4.27',
+147 silly addNameRange     '1.4.28',
+147 silly addNameRange     '2.0.13',
+147 silly addNameRange     '2.0.14',
+147 silly addNameRange     '1.4.29',
+147 silly addNameRange     '2.0.15',
+147 silly addNameRange     '1.4.30',
+147 silly addNameRange     '2.0.16',
+147 silly addNameRange     '1.4.31',
+147 silly addNameRange     '2.0.17',
+147 silly addNameRange     '1.4.32',
+147 silly addNameRange     '2.0.18',
+147 silly addNameRange     '2.0.19',
+147 silly addNameRange     '1.4.33',
+147 silly addNameRange     '2.0.20',
+147 silly addNameRange     '2.0.21',
+147 silly addNameRange     '1.4.34',
+147 silly addNameRange     '2.0.22',
+147 silly addNameRange     '2.0.23',
+147 silly addNameRange     '1.4.35',
+147 silly addNameRange     '2.0.24',
+147 silly addNameRange     '2.0.25',
+147 silly addNameRange     '2.0.26',
+147 silly addNameRange     '2.0.27' ] ]
+148 verbose addNamed mongodb@1.4.35
+149 silly addNamed semver.valid 1.4.35
+150 silly addNamed semver.validRange 1.4.35
+151 silly mapToRegistry name mongodb
+152 silly mapToRegistry using default registry
+153 silly mapToRegistry registry https://registry.npmjs.org/
+154 silly mapToRegistry uri https://registry.npmjs.org/mongodb
+155 verbose addRemoteTarball https://registry.npmjs.org/mongodb/-/mongodb-1.4.35.tgz not in flight; adding
+156 verbose addRemoteTarball [ 'https://registry.npmjs.org/mongodb/-/mongodb-1.4.35.tgz',
+156 verbose addRemoteTarball   'b5d57ee071d058f385db68e85bedb526c1caba43' ]
+157 info retry fetch attempt 1 at 1:25:10 PM
+158 info attempt registry request try #1 at 1:25:10 PM
+159 http fetch GET https://registry.npmjs.org/mongodb/-/mongodb-1.4.35.tgz
+160 http fetch 200 https://registry.npmjs.org/mongodb/-/mongodb-1.4.35.tgz
+161 silly fetchAndShaCheck shasum b5d57ee071d058f385db68e85bedb526c1caba43
+162 verbose addTmpTarball C:\Users\IBM_AD~1\AppData\Local\Temp\npm-8736-47d2e3bf\registry.npmjs.org\mongodb\-\mongodb-1.4.35.tgz not in flight; adding
+163 verbose addTmpTarball already have metadata; skipping unpack for mongodb@1.4.35
+164 silly cache afterAdd mongodb@1.4.35
+165 verbose afterAdd C:\Users\IBM_ADMIN\AppData\Roaming\npm-cache\mongodb\1.4.35\package\package.json not in flight; writing
+166 verbose afterAdd C:\Users\IBM_ADMIN\AppData\Roaming\npm-cache\mongodb\1.4.35\package\package.json written
+167 silly install resolved [ { name: 'mongodb',
+167 silly install resolved     description: 'A node.js driver for MongoDB',
+167 silly install resolved     keywords: [ 'mongodb', 'mongo', 'driver', 'db' ],
+167 silly install resolved     version: '1.4.35',
+167 silly install resolved     author: { name: 'Christian Amor Kvalheim', email: 'christkv@gmail.com' },
+167 silly install resolved     contributors:
+167 silly install resolved      [ [Object],
+167 silly install resolved        [Object],
+167 silly install resolved        [Object],
+167 silly install resolved        [Object],
+167 silly install resolved        [Object],
+167 silly install resolved        [Object],
+167 silly install resolved        [Object],
+167 silly install resolved        [Object],
+167 silly install resolved        [Object],
+167 silly install resolved        [Object],
+167 silly install resolved        [Object],
+167 silly install resolved        [Object],
+167 silly install resolved        [Object],
+167 silly install resolved        [Object],
+167 silly install resolved        [Object],
+167 silly install resolved        [Object],
+167 silly install resolved        [Object],
+167 silly install resolved        [Object],
+167 silly install resolved        [Object],
+167 silly install resolved        [Object],
+167 silly install resolved        [Object],
+167 silly install resolved        [Object],
+167 silly install resolved        [Object],
+167 silly install resolved        [Object],
+167 silly install resolved        [Object],
+167 silly install resolved        [Object],
+167 silly install resolved        [Object],
+167 silly install resolved        [Object],
+167 silly install resolved        [Object],
+167 silly install resolved        [Object],
+167 silly install resolved        [Object],
+167 silly install resolved        [Object],
+167 silly install resolved        [Object],
+167 silly install resolved        [Object],
+167 silly install resolved        [Object],
+167 silly install resolved        [Object],
+167 silly install resolved        [Object],
+167 silly install resolved        [Object],
+167 silly install resolved        [Object],
+167 silly install resolved        [Object],
+167 silly install resolved        [Object],
+167 silly install resolved        [Object],
+167 silly install resolved        [Object],
+167 silly install resolved        [Object],
+167 silly install resolved        [Object],
+167 silly install resolved        [Object],
+167 silly install resolved        [Object],
+167 silly install resolved        [Object],
+167 silly install resolved        [Object],
+167 silly install resolved        [Object],
+167 silly install resolved        [Object],
+167 silly install resolved        [Object],
+167 silly install resolved        [Object],
+167 silly install resolved        [Object] ],
+167 silly install resolved     repository:
+167 silly install resolved      { type: 'git',
+167 silly install resolved        url: 'http://github.com/mongodb/node-mongodb-native.git' },
+167 silly install resolved     bugs: { url: 'http://github.com/mongodb/node-mongodb-native/issues' },
+167 silly install resolved     dependencies: { bson: '~0.2', kerberos: '0.0.9', 'readable-stream': 'latest' },
+167 silly install resolved     devDependencies:
+167 silly install resolved      { dox: '0.4.4',
+167 silly install resolved        'uglify-js': '1.2.5',
+167 silly install resolved        ejs: '0.6.1',
+167 silly install resolved        request: '2.12.0',
+167 silly install resolved        nodeunit: '0.7.3',
+167 silly install resolved        markdown: '0.3.1',
+167 silly install resolved        gleak: '0.5.0',
+167 silly install resolved        step: '0.0.5',
+167 silly install resolved        async: '0.1.22',
+167 silly install resolved        integra: '0.1.8',
+167 silly install resolved        optimist: 'latest',
+167 silly install resolved        rimraf: '2.2.6',
+167 silly install resolved        semver: '4.1.0',
+167 silly install resolved        'mongodb-version-manager': '0.5.0',
+167 silly install resolved        'mongodb-tools': '~1.0' },
+167 silly install resolved     optionalDependencies: { kerberos: '0.0.9', 'readable-stream': 'latest' },
+167 silly install resolved     config: { native: false },
+167 silly install resolved     main: './lib/mongodb/index',
+167 silly install resolved     homepage: 'http://mongodb.github.com/node-mongodb-native/',
+167 silly install resolved     directories: { lib: './lib/mongodb' },
+167 silly install resolved     engines: { node: '>=0.6.19' },
+167 silly install resolved     scripts: { test: 'node test/runner.js -t functional' },
+167 silly install resolved     licenses: [ [Object] ],
+167 silly install resolved     gitHead: '02bf8ece1227b0c35448fe16f5d0073de26106a7',
+167 silly install resolved     _id: 'mongodb@1.4.35',
+167 silly install resolved     _shasum: 'b5d57ee071d058f385db68e85bedb526c1caba43',
+167 silly install resolved     _from: 'mongodb@>=1.4.0 <1.5.0',
+167 silly install resolved     _npmVersion: '1.4.28',
+167 silly install resolved     _npmUser: { name: 'christkv', email: 'christkv@gmail.com' },
+167 silly install resolved     maintainers: [ [Object] ],
+167 silly install resolved     dist:
+167 silly install resolved      { shasum: 'b5d57ee071d058f385db68e85bedb526c1caba43',
+167 silly install resolved        tarball: 'http://registry.npmjs.org/mongodb/-/mongodb-1.4.35.tgz' },
+167 silly install resolved     _resolved: 'https://registry.npmjs.org/mongodb/-/mongodb-1.4.35.tgz' } ]
+168 info install mongodb@1.4.35 into C:\Users\IBM_ADMIN\AppData\Roaming\npm
+169 info installOne mongodb@1.4.35
+170 verbose installOne of mongodb to C:\Users\IBM_ADMIN\AppData\Roaming\npm not in flight; installing
+171 verbose lock using C:\Users\IBM_ADMIN\AppData\Roaming\npm-cache\_locks\mongodb-9ef58f3718ad5bfd.lock for C:\Users\IBM_ADMIN\AppData\Roaming\npm\node_modules\mongodb
+172 silly install write writing mongodb 1.4.35 to C:\Users\IBM_ADMIN\AppData\Roaming\npm\node_modules\mongodb
+173 silly cache addNamed cb mongodb@1.4.35
+174 verbose unbuild node_modules\mongodb
+175 silly gentlyRm C:\Users\IBM_ADMIN\AppData\Roaming\npm\node_modules\mongodb is being purged from base C:\Users\IBM_ADMIN\AppData\Roaming\npm
+176 verbose gentlyRm don't care about contents; nuking C:\Users\IBM_ADMIN\AppData\Roaming\npm\node_modules\mongodb
+177 verbose tar unpack C:\Users\IBM_ADMIN\AppData\Roaming\npm-cache\mongodb\1.4.35\package.tgz
+178 verbose tar unpacking to C:\Users\IBM_ADMIN\AppData\Roaming\npm\node_modules\mongodb
+179 silly gentlyRm C:\Users\IBM_ADMIN\AppData\Roaming\npm\node_modules\mongodb is being purged
+180 verbose gentlyRm don't care about contents; nuking C:\Users\IBM_ADMIN\AppData\Roaming\npm\node_modules\mongodb
+181 silly gunzTarPerm modes [ '777', '666' ]
+182 silly gunzTarPerm extractEntry package.json
+183 silly gunzTarPerm modified mode [ 'package.json', 493, 511 ]
+184 silly gunzTarPerm extractEntry LICENSE
+185 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+186 silly gunzTarPerm extractEntry index.js
+187 silly gunzTarPerm modified mode [ 'index.js', 493, 511 ]
+188 silly gunzTarPerm extractEntry Makefile
+189 silly gunzTarPerm modified mode [ 'Makefile', 420, 438 ]
+190 silly gunzTarPerm extractEntry Readme.md
+191 silly gunzTarPerm modified mode [ 'Readme.md', 420, 438 ]
+192 silly gunzTarPerm extractEntry .gitmodules
+193 silly gunzTarPerm modified mode [ '.gitmodules', 420, 438 ]
+194 silly gunzTarPerm extractEntry .travis.yml
+195 silly gunzTarPerm modified mode [ '.travis.yml', 420, 438 ]
+196 silly gunzTarPerm extractEntry lib/mongodb/admin.js
+197 silly gunzTarPerm modified mode [ 'lib/mongodb/admin.js', 420, 438 ]
+198 silly gunzTarPerm extractEntry lib/mongodb/scope.js
+199 silly gunzTarPerm modified mode [ 'lib/mongodb/scope.js', 420, 438 ]
+200 silly gunzTarPerm extractEntry lib/mongodb/mongo_client.js
+201 silly gunzTarPerm modified mode [ 'lib/mongodb/mongo_client.js', 420, 438 ]
+202 silly gunzTarPerm extractEntry lib/mongodb/collection.js
+203 silly gunzTarPerm modified mode [ 'lib/mongodb/collection.js', 420, 438 ]
+204 silly gunzTarPerm extractEntry lib/mongodb/command_cursor.js
+205 silly gunzTarPerm modified mode [ 'lib/mongodb/command_cursor.js', 420, 438 ]
+206 silly gunzTarPerm extractEntry lib/mongodb/index.js
+207 silly gunzTarPerm modified mode [ 'lib/mongodb/index.js', 420, 438 ]
+208 silly gunzTarPerm extractEntry lib/mongodb/db.js
+209 silly gunzTarPerm modified mode [ 'lib/mongodb/db.js', 420, 438 ]
+210 silly gunzTarPerm extractEntry lib/mongodb/aggregation_cursor.js
+211 silly gunzTarPerm modified mode [ 'lib/mongodb/aggregation_cursor.js', 420, 438 ]
+212 silly gunzTarPerm extractEntry lib/mongodb/cursorstream.js
+213 silly gunzTarPerm modified mode [ 'lib/mongodb/cursorstream.js', 420, 438 ]
+214 silly gunzTarPerm extractEntry lib/mongodb/utils.js
+215 silly gunzTarPerm modified mode [ 'lib/mongodb/utils.js', 420, 438 ]
+216 silly gunzTarPerm extractEntry lib/mongodb/cursor.js
+217 silly gunzTarPerm modified mode [ 'lib/mongodb/cursor.js', 420, 438 ]
+218 silly gunzTarPerm extractEntry lib/mongodb/connection/base.js
+219 silly gunzTarPerm modified mode [ 'lib/mongodb/connection/base.js', 420, 438 ]
+220 silly gunzTarPerm extractEntry lib/mongodb/connection/connection.js
+221 silly gunzTarPerm modified mode [ 'lib/mongodb/connection/connection.js', 420, 438 ]
+222 silly gunzTarPerm extractEntry lib/mongodb/connection/connection_pool.js
+223 silly gunzTarPerm modified mode [ 'lib/mongodb/connection/connection_pool.js', 420, 438 ]
+224 silly gunzTarPerm extractEntry lib/mongodb/connection/connection_utils.js
+225 silly gunzTarPerm modified mode [ 'lib/mongodb/connection/connection_utils.js', 420, 438 ]
+226 silly gunzTarPerm extractEntry lib/mongodb/connection/mongos.js
+227 silly gunzTarPerm modified mode [ 'lib/mongodb/connection/mongos.js', 420, 438 ]
+228 silly gunzTarPerm extractEntry lib/mongodb/connection/read_preference.js
+229 silly gunzTarPerm modified mode [ 'lib/mongodb/connection/read_preference.js', 420, 438 ]
+230 silly gunzTarPerm extractEntry lib/mongodb/connection/server.js
+231 silly gunzTarPerm modified mode [ 'lib/mongodb/connection/server.js', 420, 438 ]
+232 silly gunzTarPerm extractEntry lib/mongodb/connection/server_capabilities.js
+233 silly gunzTarPerm modified mode [ 'lib/mongodb/connection/server_capabilities.js', 420, 438 ]
+234 silly gunzTarPerm extractEntry lib/mongodb/connection/url_parser.js
+235 silly gunzTarPerm modified mode [ 'lib/mongodb/connection/url_parser.js', 420, 438 ]
+236 silly gunzTarPerm extractEntry lib/mongodb/connection/repl_set/ha.js
+237 silly gunzTarPerm modified mode [ 'lib/mongodb/connection/repl_set/ha.js', 420, 438 ]
+238 silly gunzTarPerm extractEntry lib/mongodb/connection/repl_set/options.js
+239 silly gunzTarPerm modified mode [ 'lib/mongodb/connection/repl_set/options.js', 420, 438 ]
+240 silly gunzTarPerm extractEntry lib/mongodb/connection/repl_set/repl_set.js
+241 silly gunzTarPerm modified mode [ 'lib/mongodb/connection/repl_set/repl_set.js', 420, 438 ]
+242 silly gunzTarPerm extractEntry lib/mongodb/connection/repl_set/repl_set_state.js
+243 silly gunzTarPerm modified mode [ 'lib/mongodb/connection/repl_set/repl_set_state.js', 420, 438 ]
+244 silly gunzTarPerm extractEntry lib/mongodb/connection/repl_set/strategies/ping_strategy.js
+245 silly gunzTarPerm modified mode [ 'lib/mongodb/connection/repl_set/strategies/ping_strategy.js',
+245 silly gunzTarPerm   420,
+245 silly gunzTarPerm   438 ]
+246 silly gunzTarPerm extractEntry lib/mongodb/connection/repl_set/strategies/statistics_strategy.js
+247 silly gunzTarPerm modified mode [ 'lib/mongodb/connection/repl_set/strategies/statistics_strategy.js',
+247 silly gunzTarPerm   420,
+247 silly gunzTarPerm   438 ]
+248 silly gunzTarPerm extractEntry lib/mongodb/gridfs/chunk.js
+249 silly gunzTarPerm modified mode [ 'lib/mongodb/gridfs/chunk.js', 420, 438 ]
+250 silly gunzTarPerm extractEntry lib/mongodb/gridfs/grid.js
+251 silly gunzTarPerm modified mode [ 'lib/mongodb/gridfs/grid.js', 420, 438 ]
+252 silly gunzTarPerm extractEntry lib/mongodb/gridfs/gridstore.js
+253 silly gunzTarPerm modified mode [ 'lib/mongodb/gridfs/gridstore.js', 420, 438 ]
+254 silly gunzTarPerm extractEntry lib/mongodb/gridfs/readstream.js
+255 silly gunzTarPerm modified mode [ 'lib/mongodb/gridfs/readstream.js', 420, 438 ]
+256 silly gunzTarPerm extractEntry lib/mongodb/commands/base_command.js
+257 silly gunzTarPerm modified mode [ 'lib/mongodb/commands/base_command.js', 420, 438 ]
+258 silly gunzTarPerm extractEntry lib/mongodb/commands/db_command.js
+259 silly gunzTarPerm modified mode [ 'lib/mongodb/commands/db_command.js', 420, 438 ]
+260 silly gunzTarPerm extractEntry lib/mongodb/commands/delete_command.js
+261 silly gunzTarPerm modified mode [ 'lib/mongodb/commands/delete_command.js', 420, 438 ]
+262 silly gunzTarPerm extractEntry lib/mongodb/commands/get_more_command.js
+263 silly gunzTarPerm modified mode [ 'lib/mongodb/commands/get_more_command.js', 420, 438 ]
+264 silly gunzTarPerm extractEntry lib/mongodb/commands/insert_command.js
+265 silly gunzTarPerm modified mode [ 'lib/mongodb/commands/insert_command.js', 420, 438 ]
+266 silly gunzTarPerm extractEntry lib/mongodb/commands/kill_cursor_command.js
+267 silly gunzTarPerm modified mode [ 'lib/mongodb/commands/kill_cursor_command.js', 420, 438 ]
+268 silly gunzTarPerm extractEntry lib/mongodb/commands/query_command.js
+269 silly gunzTarPerm modified mode [ 'lib/mongodb/commands/query_command.js', 420, 438 ]
+270 silly gunzTarPerm extractEntry lib/mongodb/commands/update_command.js
+271 silly gunzTarPerm modified mode [ 'lib/mongodb/commands/update_command.js', 420, 438 ]
+272 silly gunzTarPerm extractEntry lib/mongodb/collection/aggregation.js
+273 silly gunzTarPerm modified mode [ 'lib/mongodb/collection/aggregation.js', 420, 438 ]
+274 silly gunzTarPerm extractEntry lib/mongodb/collection/commands.js
+275 silly gunzTarPerm modified mode [ 'lib/mongodb/collection/commands.js', 420, 438 ]
+276 silly gunzTarPerm extractEntry lib/mongodb/collection/core.js
+277 silly gunzTarPerm modified mode [ 'lib/mongodb/collection/core.js', 420, 438 ]
+278 silly gunzTarPerm extractEntry lib/mongodb/collection/geo.js
+279 silly gunzTarPerm modified mode [ 'lib/mongodb/collection/geo.js', 420, 438 ]
+280 silly gunzTarPerm extractEntry lib/mongodb/collection/index.js
+281 silly gunzTarPerm modified mode [ 'lib/mongodb/collection/index.js', 420, 438 ]
+282 silly gunzTarPerm extractEntry lib/mongodb/collection/query.js
+283 silly gunzTarPerm modified mode [ 'lib/mongodb/collection/query.js', 420, 438 ]
+284 silly gunzTarPerm extractEntry lib/mongodb/collection/shared.js
+285 silly gunzTarPerm modified mode [ 'lib/mongodb/collection/shared.js', 420, 438 ]
+286 silly gunzTarPerm extractEntry lib/mongodb/collection/batch/common.js
+287 silly gunzTarPerm modified mode [ 'lib/mongodb/collection/batch/common.js', 420, 438 ]
+288 silly gunzTarPerm extractEntry lib/mongodb/collection/batch/ordered.js
+289 silly gunzTarPerm modified mode [ 'lib/mongodb/collection/batch/ordered.js', 420, 438 ]
+290 silly gunzTarPerm extractEntry lib/mongodb/collection/batch/unordered.js
+291 silly gunzTarPerm modified mode [ 'lib/mongodb/collection/batch/unordered.js', 420, 438 ]
+292 silly gunzTarPerm extractEntry lib/mongodb/responses/mongo_reply.js
+293 silly gunzTarPerm modified mode [ 'lib/mongodb/responses/mongo_reply.js', 420, 438 ]
+294 silly gunzTarPerm extractEntry lib/mongodb/auth/mongodb_cr.js
+295 silly gunzTarPerm modified mode [ 'lib/mongodb/auth/mongodb_cr.js', 420, 438 ]
+296 silly gunzTarPerm extractEntry lib/mongodb/auth/mongodb_gssapi.js
+297 silly gunzTarPerm modified mode [ 'lib/mongodb/auth/mongodb_gssapi.js', 420, 438 ]
+298 silly gunzTarPerm extractEntry lib/mongodb/auth/mongodb_plain.js
+299 silly gunzTarPerm modified mode [ 'lib/mongodb/auth/mongodb_plain.js', 420, 438 ]
+300 silly gunzTarPerm extractEntry lib/mongodb/auth/mongodb_scram.js
+301 silly gunzTarPerm modified mode [ 'lib/mongodb/auth/mongodb_scram.js', 420, 438 ]
+302 silly gunzTarPerm extractEntry lib/mongodb/auth/mongodb_sspi.js
+303 silly gunzTarPerm modified mode [ 'lib/mongodb/auth/mongodb_sspi.js', 420, 438 ]
+304 silly gunzTarPerm extractEntry lib/mongodb/auth/mongodb_x509.js
+305 silly gunzTarPerm modified mode [ 'lib/mongodb/auth/mongodb_x509.js', 420, 438 ]
+306 silly gunzTarPerm extractEntry CONTRIBUTING.md
+307 silly gunzTarPerm modified mode [ 'CONTRIBUTING.md', 420, 438 ]
+308 silly gunzTarPerm extractEntry wercker.yml
+309 silly gunzTarPerm modified mode [ 'wercker.yml', 436, 438 ]
+310 info preinstall mongodb@1.4.35
+311 silly prepareForInstallMany adding bson@~0.2 from mongodb dependencies
+312 silly prepareForInstallMany adding kerberos@0.0.9 from mongodb dependencies
+313 silly prepareForInstallMany adding readable-stream@latest from mongodb dependencies
+314 silly cache add args [ 'readable-stream@latest', null ]
+315 verbose cache add spec readable-stream@latest
+316 silly cache add parsed spec { raw: 'readable-stream@latest',
+316 silly cache add   scope: null,
+316 silly cache add   name: 'readable-stream',
+316 silly cache add   rawSpec: 'latest',
+316 silly cache add   spec: 'latest',
+316 silly cache add   type: 'tag' }
+317 verbose addNamed readable-stream@latest
+318 silly addNamed semver.valid null
+319 silly addNamed semver.validRange null
+320 info addNameTag [ 'readable-stream', 'latest' ]
+321 silly mapToRegistry name readable-stream
+322 silly mapToRegistry using default registry
+323 silly mapToRegistry registry https://registry.npmjs.org/
+324 silly mapToRegistry uri https://registry.npmjs.org/readable-stream
+325 verbose addNameTag registry:https://registry.npmjs.org/readable-stream not in flight; fetching
+326 silly cache add args [ 'bson@~0.2', null ]
+327 verbose cache add spec bson@~0.2
+328 silly cache add parsed spec { raw: 'bson@~0.2',
+328 silly cache add   scope: null,
+328 silly cache add   name: 'bson',
+328 silly cache add   rawSpec: '~0.2',
+328 silly cache add   spec: '>=0.2.0 <0.3.0',
+328 silly cache add   type: 'range' }
+329 verbose addNamed bson@>=0.2.0 <0.3.0
+330 silly addNamed semver.valid null
+331 silly addNamed semver.validRange >=0.2.0 <0.3.0
+332 silly addNameRange { name: 'bson', range: '>=0.2.0 <0.3.0', hasData: false }
+333 silly mapToRegistry name bson
+334 silly mapToRegistry using default registry
+335 silly mapToRegistry registry https://registry.npmjs.org/
+336 silly mapToRegistry uri https://registry.npmjs.org/bson
+337 verbose addNameRange registry:https://registry.npmjs.org/bson not in flight; fetching
+338 silly cache add args [ 'kerberos@0.0.9', null ]
+339 verbose cache add spec kerberos@0.0.9
+340 silly cache add parsed spec { raw: 'kerberos@0.0.9',
+340 silly cache add   scope: null,
+340 silly cache add   name: 'kerberos',
+340 silly cache add   rawSpec: '0.0.9',
+340 silly cache add   spec: '0.0.9',
+340 silly cache add   type: 'version' }
+341 verbose addNamed kerberos@0.0.9
+342 silly addNamed semver.valid 0.0.9
+343 silly addNamed semver.validRange 0.0.9
+344 silly mapToRegistry name kerberos
+345 silly mapToRegistry using default registry
+346 silly mapToRegistry registry https://registry.npmjs.org/
+347 silly mapToRegistry uri https://registry.npmjs.org/kerberos
+348 verbose addNameVersion registry:https://registry.npmjs.org/kerberos not in flight; fetching
+349 verbose request uri https://registry.npmjs.org/readable-stream
+350 verbose request no auth needed
+351 info attempt registry request try #1 at 1:25:12 PM
+352 verbose etag "4U67J5EHI8O2AY605T2EPPXP7"
+353 http request GET https://registry.npmjs.org/readable-stream
+354 verbose request uri https://registry.npmjs.org/bson
+355 verbose request no auth needed
+356 info attempt registry request try #1 at 1:25:12 PM
+357 verbose etag "97TDLZ5MWD7RS1MW5A50T3ZA2"
+358 http request GET https://registry.npmjs.org/bson
+359 verbose request uri https://registry.npmjs.org/kerberos
+360 verbose request no auth needed
+361 info attempt registry request try #1 at 1:25:12 PM
+362 verbose etag "85DKBYL3BJ1TW6AOVQNXC10U9"
+363 http request GET https://registry.npmjs.org/kerberos
+364 http 304 https://registry.npmjs.org/readable-stream
+365 silly get cb [ 304,
+365 silly get   { date: 'Fri, 10 Apr 2015 16:25:11 GMT',
+365 silly get     server: 'Apache',
+365 silly get     via: '1.1 varnish',
+365 silly get     'last-modified': 'Fri, 10 Apr 2015 16:24:28 GMT',
+365 silly get     'cache-control': 'max-age=60',
+365 silly get     etag: '"4U67J5EHI8O2AY605T2EPPXP7"',
+365 silly get     age: '43',
+365 silly get     'x-served-by': 'cache-iad2137-IAD',
+365 silly get     'x-cache': 'HIT',
+365 silly get     'x-cache-hits': '6',
+365 silly get     'x-timer': 'S1428683111.343410,VS0,VE0',
+365 silly get     vary: 'Accept',
+365 silly get     'content-length': '0',
+365 silly get     'keep-alive': 'timeout=10, max=50',
+365 silly get     connection: 'Keep-Alive' } ]
+366 verbose etag https://registry.npmjs.org/readable-stream from cache
+367 verbose get saving readable-stream to C:\Users\IBM_ADMIN\AppData\Roaming\npm-cache\registry.npmjs.org\readable-stream\.cache.json
+368 http 304 https://registry.npmjs.org/bson
+369 silly get cb [ 304,
+369 silly get   { date: 'Fri, 10 Apr 2015 16:25:11 GMT',
+369 silly get     server: 'Apache',
+369 silly get     via: '1.1 varnish',
+369 silly get     'last-modified': 'Fri, 10 Apr 2015 16:24:41 GMT',
+369 silly get     'cache-control': 'max-age=60',
+369 silly get     etag: '"97TDLZ5MWD7RS1MW5A50T3ZA2"',
+369 silly get     age: '56',
+369 silly get     'x-served-by': 'cache-iad2137-IAD',
+369 silly get     'x-cache': 'HIT',
+369 silly get     'x-cache-hits': '3',
+369 silly get     'x-timer': 'S1428683111.345120,VS0,VE0',
+369 silly get     vary: 'Accept',
+369 silly get     'content-length': '0',
+369 silly get     'keep-alive': 'timeout=10, max=50',
+369 silly get     connection: 'Keep-Alive' } ]
+370 verbose etag https://registry.npmjs.org/bson from cache
+371 verbose get saving bson to C:\Users\IBM_ADMIN\AppData\Roaming\npm-cache\registry.npmjs.org\bson\.cache.json
+372 http 304 https://registry.npmjs.org/kerberos
+373 silly get cb [ 304,
+373 silly get   { date: 'Fri, 10 Apr 2015 16:25:11 GMT',
+373 silly get     server: 'Apache',
+373 silly get     via: '1.1 varnish',
+373 silly get     'last-modified': 'Fri, 10 Apr 2015 16:25:11 GMT',
+373 silly get     'cache-control': 'max-age=60',
+373 silly get     etag: '"85DKBYL3BJ1TW6AOVQNXC10U9"',
+373 silly get     age: '57',
+373 silly get     'x-served-by': 'cache-iad2139-IAD',
+373 silly get     'x-cache': 'HIT',
+373 silly get     'x-cache-hits': '1',
+373 silly get     'x-timer': 'S1428683111.350133,VS0,VE0',
+373 silly get     vary: 'Accept',
+373 silly get     'content-length': '0',
+373 silly get     'keep-alive': 'timeout=10, max=50',
+373 silly get     connection: 'Keep-Alive' } ]
+374 verbose etag https://registry.npmjs.org/kerberos from cache
+375 verbose get saving kerberos to C:\Users\IBM_ADMIN\AppData\Roaming\npm-cache\registry.npmjs.org\kerberos\.cache.json
+376 silly addNameRange number 2 { name: 'bson', range: '>=0.2.0 <0.3.0', hasData: true }
+377 silly addNameRange versions [ 'bson',
+377 silly addNameRange   [ '0.0.1',
+377 silly addNameRange     '0.0.2',
+377 silly addNameRange     '0.0.3',
+377 silly addNameRange     '0.0.4',
+377 silly addNameRange     '0.0.5',
+377 silly addNameRange     '0.0.6',
+377 silly addNameRange     '0.0.7',
+377 silly addNameRange     '0.0.8',
+377 silly addNameRange     '0.0.9',
+377 silly addNameRange     '0.1.0',
+377 silly addNameRange     '0.1.1',
+377 silly addNameRange     '0.1.3',
+377 silly addNameRange     '0.1.4',
+377 silly addNameRange     '0.1.5',
+377 silly addNameRange     '0.1.6',
+377 silly addNameRange     '0.1.7',
+377 silly addNameRange     '0.1.8',
+377 silly addNameRange     '0.1.9',
+377 silly addNameRange     '0.2.0',
+377 silly addNameRange     '0.2.1',
+377 silly addNameRange     '0.2.2',
+377 silly addNameRange     '0.2.3',
+377 silly addNameRange     '0.2.4',
+377 silly addNameRange     '0.2.5',
+377 silly addNameRange     '0.2.6',
+377 silly addNameRange     '0.2.7',
+377 silly addNameRange     '0.2.8',
+377 silly addNameRange     '0.2.9',
+377 silly addNameRange     '0.2.10',
+377 silly addNameRange     '0.2.11',
+377 silly addNameRange     '0.2.12',
+377 silly addNameRange     '0.2.13',
+377 silly addNameRange     '0.2.14',
+377 silly addNameRange     '0.2.15',
+377 silly addNameRange     '0.2.16',
+377 silly addNameRange     '0.2.17',
+377 silly addNameRange     '0.2.18',
+377 silly addNameRange     '0.2.19',
+377 silly addNameRange     '0.2.20',
+377 silly addNameRange     '0.2.21',
+377 silly addNameRange     '0.3.0',
+377 silly addNameRange     '0.3.1' ] ]
+378 verbose addNamed bson@0.2.21
+379 silly addNamed semver.valid 0.2.21
+380 silly addNamed semver.validRange 0.2.21
+381 silly addNameTag next cb for readable-stream with tag latest
+382 verbose addNamed readable-stream@1.0.33
+383 silly addNamed semver.valid 1.0.33
+384 silly addNamed semver.validRange 1.0.33
+385 silly mapToRegistry name kerberos
+386 silly mapToRegistry using default registry
+387 silly mapToRegistry registry https://registry.npmjs.org/
+388 silly mapToRegistry uri https://registry.npmjs.org/kerberos
+389 verbose addRemoteTarball https://registry.npmjs.org/kerberos/-/kerberos-0.0.9.tgz not in flight; adding
+390 verbose addRemoteTarball [ 'https://registry.npmjs.org/kerberos/-/kerberos-0.0.9.tgz',
+390 verbose addRemoteTarball   '595bf97e7e8aae5401ae313aea57bbf402e799c5' ]
+391 silly mapToRegistry name bson
+392 silly mapToRegistry using default registry
+393 silly mapToRegistry registry https://registry.npmjs.org/
+394 silly mapToRegistry uri https://registry.npmjs.org/bson
+395 verbose addRemoteTarball https://registry.npmjs.org/bson/-/bson-0.2.21.tgz not in flight; adding
+396 verbose addRemoteTarball [ 'https://registry.npmjs.org/bson/-/bson-0.2.21.tgz',
+396 verbose addRemoteTarball   '3755a5de71ac43f0e9a85f699c84d1ab73b0fcb3' ]
+397 silly cache afterAdd readable-stream@1.0.33
+398 verbose afterAdd C:\Users\IBM_ADMIN\AppData\Roaming\npm-cache\readable-stream\1.0.33\package\package.json not in flight; writing
+399 info retry fetch attempt 1 at 1:25:13 PM
+400 info attempt registry request try #1 at 1:25:13 PM
+401 http fetch GET https://registry.npmjs.org/bson/-/bson-0.2.21.tgz
+402 verbose afterAdd C:\Users\IBM_ADMIN\AppData\Roaming\npm-cache\readable-stream\1.0.33\package\package.json written
+403 info retry fetch attempt 1 at 1:25:13 PM
+404 info attempt registry request try #1 at 1:25:13 PM
+405 http fetch GET https://registry.npmjs.org/kerberos/-/kerberos-0.0.9.tgz
+406 http fetch 200 https://registry.npmjs.org/bson/-/bson-0.2.21.tgz
+407 http fetch 200 https://registry.npmjs.org/kerberos/-/kerberos-0.0.9.tgz
+408 silly fetchAndShaCheck shasum 595bf97e7e8aae5401ae313aea57bbf402e799c5
+409 verbose addTmpTarball C:\Users\IBM_AD~1\AppData\Local\Temp\npm-8736-47d2e3bf\registry.npmjs.org\kerberos\-\kerberos-0.0.9.tgz not in flight; adding
+410 verbose addTmpTarball already have metadata; skipping unpack for kerberos@0.0.9
+411 silly cache afterAdd kerberos@0.0.9
+412 verbose afterAdd C:\Users\IBM_ADMIN\AppData\Roaming\npm-cache\kerberos\0.0.9\package\package.json not in flight; writing
+413 verbose afterAdd C:\Users\IBM_ADMIN\AppData\Roaming\npm-cache\kerberos\0.0.9\package\package.json written
+414 silly fetchAndShaCheck shasum 3755a5de71ac43f0e9a85f699c84d1ab73b0fcb3
+415 verbose addTmpTarball C:\Users\IBM_AD~1\AppData\Local\Temp\npm-8736-47d2e3bf\registry.npmjs.org\bson\-\bson-0.2.21.tgz not in flight; adding
+416 verbose addTmpTarball already have metadata; skipping unpack for bson@0.2.21
+417 silly cache afterAdd bson@0.2.21
+418 verbose afterAdd C:\Users\IBM_ADMIN\AppData\Roaming\npm-cache\bson\0.2.21\package\package.json not in flight; writing
+419 verbose afterAdd C:\Users\IBM_ADMIN\AppData\Roaming\npm-cache\bson\0.2.21\package\package.json written
+420 silly install resolved [ { name: 'readable-stream',
+420 silly install resolved     version: '1.0.33',
+420 silly install resolved     description: 'Streams2, a user-land copy of the stream library from Node.js v0.10.x',
+420 silly install resolved     main: 'readable.js',
+420 silly install resolved     dependencies:
+420 silly install resolved      { 'core-util-is': '~1.0.0',
+420 silly install resolved        isarray: '0.0.1',
+420 silly install resolved        string_decoder: '~0.10.x',
+420 silly install resolved        inherits: '~2.0.1' },
+420 silly install resolved     devDependencies: { tap: '~0.2.6' },
+420 silly install resolved     scripts: { test: 'tap test/simple/*.js' },
+420 silly install resolved     repository: { type: 'git', url: 'git://github.com/isaacs/readable-stream' },
+420 silly install resolved     keywords: [ 'readable', 'stream', 'pipe' ],
+420 silly install resolved     browser: { util: false },
+420 silly install resolved     author:
+420 silly install resolved      { name: 'Isaac Z. Schlueter',
+420 silly install resolved        email: 'i@izs.me',
+420 silly install resolved        url: 'http://blog.izs.me/' },
+420 silly install resolved     license: 'MIT',
+420 silly install resolved     gitHead: '0bf97a117c5646556548966409ebc57a6dda2638',
+420 silly install resolved     bugs: { url: 'https://github.com/isaacs/readable-stream/issues' },
+420 silly install resolved     homepage: 'https://github.com/isaacs/readable-stream',
+420 silly install resolved     _id: 'readable-stream@1.0.33',
+420 silly install resolved     _shasum: '3a360dd66c1b1d7fd4705389860eda1d0f61126c',
+420 silly install resolved     _from: 'readable-stream@latest',
+420 silly install resolved     _npmVersion: '1.4.28',
+420 silly install resolved     _npmUser: { name: 'rvagg', email: 'rod@vagg.org' },
+420 silly install resolved     maintainers: [ [Object], [Object], [Object] ],
+420 silly install resolved     dist:
+420 silly install resolved      { shasum: '3a360dd66c1b1d7fd4705389860eda1d0f61126c',
+420 silly install resolved        tarball: 'http://registry.npmjs.org/readable-stream/-/readable-stream-1.0.33.tgz' },
+420 silly install resolved     directories: {},
+420 silly install resolved     _resolved: 'https://registry.npmjs.org/readable-stream/-/readable-stream-1.0.33.tgz',
+420 silly install resolved     readme: 'ERROR: No README data found!' },
+420 silly install resolved   { name: 'kerberos',
+420 silly install resolved     version: '0.0.9',
+420 silly install resolved     description: 'Kerberos library for Node.js',
+420 silly install resolved     main: 'index.js',
+420 silly install resolved     repository: { type: 'git', url: 'https://github.com/christkv/kerberos.git' },
+420 silly install resolved     keywords: [ 'kerberos', 'security', 'authentication' ],
+420 silly install resolved     dependencies: { nan: '1.6.2' },
+420 silly install resolved     devDependencies: { nodeunit: 'latest' },
+420 silly install resolved     scripts:
+420 silly install resolved      { install: '(node-gyp rebuild 2> builderror.log) || (exit 0)',
+420 silly install resolved        test: 'nodeunit ./test' },
+420 silly install resolved     author: { name: 'Christian Amor Kvalheim' },
+420 silly install resolved     license: 'Apache 2.0',
+420 silly install resolved     gitHead: 'bb01d4fe322e022999aca19da564e7d9db59a8ed',
+420 silly install resolved     bugs: { url: 'https://github.com/christkv/kerberos/issues' },
+420 silly install resolved     homepage: 'https://github.com/christkv/kerberos',
+420 silly install resolved     _id: 'kerberos@0.0.9',
+420 silly install resolved     _shasum: '595bf97e7e8aae5401ae313aea57bbf402e799c5',
+420 silly install resolved     _from: 'kerberos@0.0.9',
+420 silly install resolved     _npmVersion: '2.5.1',
+420 silly install resolved     _nodeVersion: '0.12.0',
+420 silly install resolved     _npmUser: { name: 'christkv', email: 'christkv@gmail.com' },
+420 silly install resolved     maintainers: [ [Object] ],
+420 silly install resolved     dist:
+420 silly install resolved      { shasum: '595bf97e7e8aae5401ae313aea57bbf402e799c5',
+420 silly install resolved        tarball: 'http://registry.npmjs.org/kerberos/-/kerberos-0.0.9.tgz' },
+420 silly install resolved     directories: {},
+420 silly install resolved     _resolved: 'https://registry.npmjs.org/kerberos/-/kerberos-0.0.9.tgz' },
+420 silly install resolved   { name: 'bson',
+420 silly install resolved     description: 'A bson parser for node.js and the browser',
+420 silly install resolved     keywords: [ 'mongodb', 'bson', 'parser' ],
+420 silly install resolved     version: '0.2.21',
+420 silly install resolved     author: { name: 'Christian Amor Kvalheim', email: 'christkv@gmail.com' },
+420 silly install resolved     contributors: [],
+420 silly install resolved     repository: { type: 'git', url: 'git://github.com/mongodb/js-bson.git' },
+420 silly install resolved     bugs: { url: 'https://github.com/mongodb/js-bson/issues' },
+420 silly install resolved     dependencies: { nan: '1.7.0' },
+420 silly install resolved     devDependencies: { nodeunit: '0.9.0', gleak: '0.2.3', one: '2.X.X' },
+420 silly install resolved     config: { native: false },
+420 silly install resolved     main: './lib/bson/index',
+420 silly install resolved     directories: { lib: './lib/bson' },
+420 silly install resolved     engines: { node: '>=0.6.19' },
+420 silly install resolved     scripts:
+420 silly install resolved      { install: '(node-gyp rebuild 2> builderror.log) || (exit 0)',
+420 silly install resolved        test: 'nodeunit ./test/node && TEST_NATIVE=TRUE nodeunit ./test/node' },
+420 silly install resolved     browser: 'lib/bson/bson.js',
+420 silly install resolved     licenses: [ [Object] ],
+420 silly install resolved     gitHead: 'a4b8ff14e3dcc92d144817a806f4c5ba536a7f2e',
+420 silly install resolved     homepage: 'https://github.com/mongodb/js-bson',
+420 silly install resolved     _id: 'bson@0.2.21',
+420 silly install resolved     _shasum: '3755a5de71ac43f0e9a85f699c84d1ab73b0fcb3',
+420 silly install resolved     _from: 'bson@>=0.2.0 <0.3.0',
+420 silly install resolved     _npmVersion: '2.7.1',
+420 silly install resolved     _nodeVersion: '1.6.1',
+420 silly install resolved     _npmUser: { name: 'christkv', email: 'christkv@gmail.com' },
+420 silly install resolved     maintainers: [ [Object], [Object] ],
+420 silly install resolved     dist:
+420 silly install resolved      { shasum: '3755a5de71ac43f0e9a85f699c84d1ab73b0fcb3',
+420 silly install resolved        tarball: 'http://registry.npmjs.org/bson/-/bson-0.2.21.tgz' },
+420 silly install resolved     _resolved: 'https://registry.npmjs.org/bson/-/bson-0.2.21.tgz' } ]
+421 info install readable-stream@1.0.33 into C:\Users\IBM_ADMIN\AppData\Roaming\npm\node_modules\mongodb
+422 info install kerberos@0.0.9 into C:\Users\IBM_ADMIN\AppData\Roaming\npm\node_modules\mongodb
+423 info install bson@0.2.21 into C:\Users\IBM_ADMIN\AppData\Roaming\npm\node_modules\mongodb
+424 info installOne readable-stream@1.0.33
+425 verbose installOne of readable-stream to C:\Users\IBM_ADMIN\AppData\Roaming\npm\node_modules\mongodb not in flight; installing
+426 info installOne kerberos@0.0.9
+427 verbose installOne of kerberos to C:\Users\IBM_ADMIN\AppData\Roaming\npm\node_modules\mongodb not in flight; installing
+428 info installOne bson@0.2.21
+429 verbose installOne of bson to C:\Users\IBM_ADMIN\AppData\Roaming\npm\node_modules\mongodb not in flight; installing
+430 verbose lock using C:\Users\IBM_ADMIN\AppData\Roaming\npm-cache\_locks\bson-431a95c8d87011bf.lock for C:\Users\IBM_ADMIN\AppData\Roaming\npm\node_modules\mongodb\node_modules\bson
+431 verbose lock using C:\Users\IBM_ADMIN\AppData\Roaming\npm-cache\_locks\readable-stream-467427665796d97f.lock for C:\Users\IBM_ADMIN\AppData\Roaming\npm\node_modules\mongodb\node_modules\readable-stream
+432 verbose lock using C:\Users\IBM_ADMIN\AppData\Roaming\npm-cache\_locks\kerberos-5ab45fc92e59f2d1.lock for C:\Users\IBM_ADMIN\AppData\Roaming\npm\node_modules\mongodb\node_modules\kerberos
+433 silly install write writing bson 0.2.21 to C:\Users\IBM_ADMIN\AppData\Roaming\npm\node_modules\mongodb\node_modules\bson
+434 silly install write writing kerberos 0.0.9 to C:\Users\IBM_ADMIN\AppData\Roaming\npm\node_modules\mongodb\node_modules\kerberos
+435 silly install write writing readable-stream 1.0.33 to C:\Users\IBM_ADMIN\AppData\Roaming\npm\node_modules\mongodb\node_modules\readable-stream
+436 silly cache addNamed cb readable-stream@1.0.33
+437 verbose unbuild node_modules\mongodb\node_modules\readable-stream
+438 silly cache addNamed cb bson@0.2.21
+439 verbose unbuild node_modules\mongodb\node_modules\bson
+440 silly cache addNamed cb kerberos@0.0.9
+441 verbose unbuild node_modules\mongodb\node_modules\kerberos
+442 silly gentlyRm C:\Users\IBM_ADMIN\AppData\Roaming\npm\node_modules\mongodb\node_modules\readable-stream is being purged from base C:\Users\IBM_ADMIN\AppData\Roaming\npm
+443 verbose gentlyRm don't care about contents; nuking C:\Users\IBM_ADMIN\AppData\Roaming\npm\node_modules\mongodb\node_modules\readable-stream
+444 verbose tar unpack C:\Users\IBM_ADMIN\AppData\Roaming\npm-cache\readable-stream\1.0.33\package.tgz
+445 verbose tar unpacking to C:\Users\IBM_ADMIN\AppData\Roaming\npm\node_modules\mongodb\node_modules\readable-stream
+446 silly gentlyRm C:\Users\IBM_ADMIN\AppData\Roaming\npm\node_modules\mongodb\node_modules\readable-stream is being purged
+447 verbose gentlyRm don't care about contents; nuking C:\Users\IBM_ADMIN\AppData\Roaming\npm\node_modules\mongodb\node_modules\readable-stream
+448 silly gunzTarPerm modes [ '777', '666' ]
+449 silly gentlyRm C:\Users\IBM_ADMIN\AppData\Roaming\npm\node_modules\mongodb\node_modules\bson is being purged from base C:\Users\IBM_ADMIN\AppData\Roaming\npm
+450 verbose gentlyRm don't care about contents; nuking C:\Users\IBM_ADMIN\AppData\Roaming\npm\node_modules\mongodb\node_modules\bson
+451 verbose tar unpack C:\Users\IBM_ADMIN\AppData\Roaming\npm-cache\bson\0.2.21\package.tgz
+452 verbose tar unpacking to C:\Users\IBM_ADMIN\AppData\Roaming\npm\node_modules\mongodb\node_modules\bson
+453 silly gentlyRm C:\Users\IBM_ADMIN\AppData\Roaming\npm\node_modules\mongodb\node_modules\bson is being purged
+454 verbose gentlyRm don't care about contents; nuking C:\Users\IBM_ADMIN\AppData\Roaming\npm\node_modules\mongodb\node_modules\bson
+455 silly gentlyRm C:\Users\IBM_ADMIN\AppData\Roaming\npm\node_modules\mongodb\node_modules\kerberos is being purged from base C:\Users\IBM_ADMIN\AppData\Roaming\npm
+456 verbose gentlyRm don't care about contents; nuking C:\Users\IBM_ADMIN\AppData\Roaming\npm\node_modules\mongodb\node_modules\kerberos
+457 silly gunzTarPerm modes [ '777', '666' ]
+458 verbose tar unpack C:\Users\IBM_ADMIN\AppData\Roaming\npm-cache\kerberos\0.0.9\package.tgz
+459 verbose tar unpacking to C:\Users\IBM_ADMIN\AppData\Roaming\npm\node_modules\mongodb\node_modules\kerberos
+460 silly gentlyRm C:\Users\IBM_ADMIN\AppData\Roaming\npm\node_modules\mongodb\node_modules\kerberos is being purged
+461 verbose gentlyRm don't care about contents; nuking C:\Users\IBM_ADMIN\AppData\Roaming\npm\node_modules\mongodb\node_modules\kerberos
+462 silly gunzTarPerm modes [ '777', '666' ]
+463 silly gunzTarPerm extractEntry package.json
+464 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+465 silly gunzTarPerm extractEntry package.json
+466 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+467 silly gunzTarPerm extractEntry .npmignore
+468 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+469 silly gunzTarPerm extractEntry README.md
+470 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+471 silly gunzTarPerm extractEntry package.json
+472 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+473 silly gunzTarPerm extractEntry README.md
+474 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+475 silly gunzTarPerm extractEntry LICENSE
+476 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+477 silly gunzTarPerm extractEntry README.md
+478 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+479 silly gunzTarPerm extractEntry LICENSE
+480 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+481 silly gunzTarPerm extractEntry LICENSE
+482 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+483 silly gunzTarPerm extractEntry duplex.js
+484 silly gunzTarPerm modified mode [ 'duplex.js', 420, 438 ]
+485 silly gunzTarPerm extractEntry build_browser.js
+486 silly gunzTarPerm modified mode [ 'build_browser.js', 420, 438 ]
+487 silly gunzTarPerm extractEntry index.js
+488 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+489 silly gunzTarPerm extractEntry builderror.log
+490 silly gunzTarPerm modified mode [ 'builderror.log', 420, 438 ]
+491 silly gunzTarPerm extractEntry writable.js
+492 silly gunzTarPerm modified mode [ 'writable.js', 420, 438 ]
+493 silly gunzTarPerm extractEntry passthrough.js
+494 silly gunzTarPerm modified mode [ 'passthrough.js', 420, 438 ]
+495 silly gunzTarPerm extractEntry binding.gyp
+496 silly gunzTarPerm modified mode [ 'binding.gyp', 420, 438 ]
+497 silly gunzTarPerm extractEntry browser_build/package.json
+498 silly gunzTarPerm modified mode [ 'browser_build/package.json', 420, 438 ]
+499 silly gunzTarPerm extractEntry browser_build/bson.js
+500 silly gunzTarPerm modified mode [ 'browser_build/bson.js', 420, 438 ]
+501 silly gunzTarPerm extractEntry readable.js
+502 silly gunzTarPerm modified mode [ 'readable.js', 420, 438 ]
+503 silly gunzTarPerm extractEntry transform.js
+504 silly gunzTarPerm modified mode [ 'transform.js', 420, 438 ]
+505 silly gunzTarPerm extractEntry lib/_stream_duplex.js
+506 silly gunzTarPerm modified mode [ 'lib/_stream_duplex.js', 420, 438 ]
+507 silly gunzTarPerm extractEntry lib/_stream_passthrough.js
+508 silly gunzTarPerm modified mode [ 'lib/_stream_passthrough.js', 420, 438 ]
+509 silly gunzTarPerm extractEntry lib/kerberos.js
+510 silly gunzTarPerm modified mode [ 'lib/kerberos.js', 420, 438 ]
+511 silly gunzTarPerm extractEntry lib/sspi.js
+512 silly gunzTarPerm modified mode [ 'lib/sspi.js', 420, 438 ]
+513 silly gunzTarPerm extractEntry .travis.yml
+514 silly gunzTarPerm modified mode [ '.travis.yml', 420, 438 ]
+515 silly gunzTarPerm extractEntry binding.gyp
+516 silly gunzTarPerm modified mode [ 'binding.gyp', 420, 438 ]
+517 silly gunzTarPerm extractEntry lib/_stream_readable.js
+518 silly gunzTarPerm modified mode [ 'lib/_stream_readable.js', 420, 438 ]
+519 silly gunzTarPerm extractEntry lib/kerberos_context.h
+520 silly gunzTarPerm modified mode [ 'lib/kerberos_context.h', 420, 438 ]
+521 silly gunzTarPerm extractEntry lib/kerberos.cc
+522 silly gunzTarPerm modified mode [ 'lib/kerberos.cc', 420, 438 ]
+523 silly gunzTarPerm extractEntry lib/_stream_transform.js
+524 silly gunzTarPerm modified mode [ 'lib/_stream_transform.js', 420, 438 ]
+525 silly gunzTarPerm extractEntry lib/_stream_writable.js
+526 silly gunzTarPerm modified mode [ 'lib/_stream_writable.js', 420, 438 ]
+527 silly gunzTarPerm extractEntry HISTORY
+528 silly gunzTarPerm modified mode [ 'HISTORY', 420, 438 ]
+529 silly gunzTarPerm extractEntry build/Makefile
+530 silly gunzTarPerm modified mode [ 'build/Makefile', 420, 438 ]
+531 silly gunzTarPerm extractEntry lib/kerberos.h
+532 silly gunzTarPerm modified mode [ 'lib/kerberos.h', 420, 438 ]
+533 silly gunzTarPerm extractEntry lib/auth_processes/mongodb.js
+534 silly gunzTarPerm modified mode [ 'lib/auth_processes/mongodb.js', 420, 438 ]
+535 silly gunzTarPerm extractEntry build/Release/.deps/Release/bson.node.d
+536 silly gunzTarPerm modified mode [ 'build/Release/.deps/Release/bson.node.d', 420, 438 ]
+537 silly gunzTarPerm extractEntry build/Release/.deps/Release/obj.target/bson/ext/bson.o.d
+538 silly gunzTarPerm modified mode [ 'build/Release/.deps/Release/obj.target/bson/ext/bson.o.d',
+538 silly gunzTarPerm   420,
+538 silly gunzTarPerm   438 ]
+539 silly gunzTarPerm extractEntry build/Release/bson.node
+540 silly gunzTarPerm modified mode [ 'build/Release/bson.node', 493, 511 ]
+541 silly gunzTarPerm extractEntry lib/kerberos_context.cc
+542 silly gunzTarPerm modified mode [ 'lib/kerberos_context.cc', 420, 438 ]
+543 silly gunzTarPerm extractEntry lib/base64.c
+544 silly gunzTarPerm modified mode [ 'lib/base64.c', 420, 438 ]
+545 silly gunzTarPerm extractEntry build/Release/linker.lock
+546 silly gunzTarPerm modified mode [ 'build/Release/linker.lock', 420, 438 ]
+547 silly gunzTarPerm extractEntry lib/kerberosgss.c
+548 silly gunzTarPerm modified mode [ 'lib/kerberosgss.c', 420, 438 ]
+549 silly gunzTarPerm extractEntry lib/kerberosgss.h
+550 silly gunzTarPerm modified mode [ 'lib/kerberosgss.h', 420, 438 ]
+551 silly gunzTarPerm extractEntry build/Release/obj.target/bson/ext/bson.o
+552 silly gunzTarPerm modified mode [ 'build/Release/obj.target/bson/ext/bson.o', 420, 438 ]
+553 silly gunzTarPerm extractEntry lib/base64.h
+554 silly gunzTarPerm modified mode [ 'lib/base64.h', 420, 438 ]
+555 silly gunzTarPerm extractEntry lib/win32/base64.c
+556 silly gunzTarPerm modified mode [ 'lib/win32/base64.c', 420, 438 ]
+557 silly gunzTarPerm extractEntry lib/win32/base64.h
+558 silly gunzTarPerm modified mode [ 'lib/win32/base64.h', 420, 438 ]
+559 silly gunzTarPerm extractEntry lib/win32/kerberos.cc
+560 silly gunzTarPerm modified mode [ 'lib/win32/kerberos.cc', 420, 438 ]
+561 silly gunzTarPerm extractEntry lib/win32/kerberos.h
+562 silly gunzTarPerm modified mode [ 'lib/win32/kerberos.h', 420, 438 ]
+563 silly gunzTarPerm extractEntry lib/win32/kerberos_sspi.c
+564 silly gunzTarPerm modified mode [ 'lib/win32/kerberos_sspi.c', 420, 438 ]
+565 silly gunzTarPerm extractEntry lib/win32/kerberos_sspi.h
+566 silly gunzTarPerm modified mode [ 'lib/win32/kerberos_sspi.h', 420, 438 ]
+567 silly gunzTarPerm extractEntry lib/win32/worker.cc
+568 silly gunzTarPerm modified mode [ 'lib/win32/worker.cc', 420, 438 ]
+569 silly gunzTarPerm extractEntry build/binding.Makefile
+570 silly gunzTarPerm modified mode [ 'build/binding.Makefile', 420, 438 ]
+571 silly gunzTarPerm extractEntry lib/win32/worker.h
+572 silly gunzTarPerm modified mode [ 'lib/win32/worker.h', 420, 438 ]
+573 silly gunzTarPerm extractEntry lib/win32/wrappers/security_credentials.js
+574 silly gunzTarPerm modified mode [ 'lib/win32/wrappers/security_credentials.js', 420, 438 ]
+575 silly gunzTarPerm extractEntry build/bson.target.mk
+576 silly gunzTarPerm modified mode [ 'build/bson.target.mk', 420, 438 ]
+577 silly gunzTarPerm extractEntry lib/win32/wrappers/security_buffer.js
+578 silly gunzTarPerm modified mode [ 'lib/win32/wrappers/security_buffer.js', 420, 438 ]
+579 silly gunzTarPerm extractEntry lib/win32/wrappers/security_buffer_descriptor.js
+580 silly gunzTarPerm modified mode [ 'lib/win32/wrappers/security_buffer_descriptor.js', 420, 438 ]
+581 silly gunzTarPerm extractEntry build/config.gypi
+582 silly gunzTarPerm modified mode [ 'build/config.gypi', 420, 438 ]
+583 info preinstall readable-stream@1.0.33
+584 silly gunzTarPerm extractEntry lib/win32/wrappers/security_context.js
+585 silly gunzTarPerm modified mode [ 'lib/win32/wrappers/security_context.js', 420, 438 ]
+586 silly gunzTarPerm extractEntry lib/win32/wrappers/security_buffer_descriptor.h
+587 silly gunzTarPerm modified mode [ 'lib/win32/wrappers/security_buffer_descriptor.h', 420, 438 ]
+588 silly prepareForInstallMany adding core-util-is@~1.0.0 from readable-stream dependencies
+589 silly prepareForInstallMany adding isarray@0.0.1 from readable-stream dependencies
+590 silly prepareForInstallMany adding string_decoder@~0.10.x from readable-stream dependencies
+591 silly prepareForInstallMany adding inherits@~2.0.1 from readable-stream dependencies
+592 silly gunzTarPerm extractEntry build/gyp-mac-tool
+593 silly gunzTarPerm modified mode [ 'build/gyp-mac-tool', 493, 511 ]
+594 silly cache add args [ 'isarray@0.0.1', null ]
+595 verbose cache add spec isarray@0.0.1
+596 silly cache add parsed spec { raw: 'isarray@0.0.1',
+596 silly cache add   scope: null,
+596 silly cache add   name: 'isarray',
+596 silly cache add   rawSpec: '0.0.1',
+596 silly cache add   spec: '0.0.1',
+596 silly cache add   type: 'version' }
+597 verbose addNamed isarray@0.0.1
+598 silly addNamed semver.valid 0.0.1
+599 silly addNamed semver.validRange 0.0.1
+600 silly mapToRegistry name isarray
+601 silly mapToRegistry using default registry
+602 silly mapToRegistry registry https://registry.npmjs.org/
+603 silly mapToRegistry uri https://registry.npmjs.org/isarray
+604 verbose addNameVersion registry:https://registry.npmjs.org/isarray not in flight; fetching
+605 silly cache add args [ 'string_decoder@~0.10.x', null ]
+606 verbose cache add spec string_decoder@~0.10.x
+607 silly cache add parsed spec { raw: 'string_decoder@~0.10.x',
+607 silly cache add   scope: null,
+607 silly cache add   name: 'string_decoder',
+607 silly cache add   rawSpec: '~0.10.x',
+607 silly cache add   spec: '>=0.10.0 <0.11.0',
+607 silly cache add   type: 'range' }
+608 verbose addNamed string_decoder@>=0.10.0 <0.11.0
+609 silly addNamed semver.valid null
+610 silly addNamed semver.validRange >=0.10.0 <0.11.0
+611 silly addNameRange { name: 'string_decoder',
+611 silly addNameRange   range: '>=0.10.0 <0.11.0',
+611 silly addNameRange   hasData: false }
+612 silly mapToRegistry name string_decoder
+613 silly mapToRegistry using default registry
+614 silly mapToRegistry registry https://registry.npmjs.org/
+615 silly mapToRegistry uri https://registry.npmjs.org/string_decoder
+616 verbose addNameRange registry:https://registry.npmjs.org/string_decoder not in flight; fetching
+617 silly cache add args [ 'inherits@~2.0.1', null ]
+618 verbose cache add spec inherits@~2.0.1
+619 silly cache add parsed spec { raw: 'inherits@~2.0.1',
+619 silly cache add   scope: null,
+619 silly cache add   name: 'inherits',
+619 silly cache add   rawSpec: '~2.0.1',
+619 silly cache add   spec: '>=2.0.1 <2.1.0',
+619 silly cache add   type: 'range' }
+620 verbose addNamed inherits@>=2.0.1 <2.1.0
+621 silly addNamed semver.valid null
+622 silly addNamed semver.validRange >=2.0.1 <2.1.0
+623 silly addNameRange { name: 'inherits', range: '>=2.0.1 <2.1.0', hasData: false }
+624 silly mapToRegistry name inherits
+625 silly mapToRegistry using default registry
+626 silly mapToRegistry registry https://registry.npmjs.org/
+627 silly mapToRegistry uri https://registry.npmjs.org/inherits
+628 verbose addNameRange registry:https://registry.npmjs.org/inherits not in flight; fetching
+629 silly cache add args [ 'core-util-is@~1.0.0', null ]
+630 verbose cache add spec core-util-is@~1.0.0
+631 silly cache add parsed spec { raw: 'core-util-is@~1.0.0',
+631 silly cache add   scope: null,
+631 silly cache add   name: 'core-util-is',
+631 silly cache add   rawSpec: '~1.0.0',
+631 silly cache add   spec: '>=1.0.0 <1.1.0',
+631 silly cache add   type: 'range' }
+632 verbose addNamed core-util-is@>=1.0.0 <1.1.0
+633 silly addNamed semver.valid null
+634 silly addNamed semver.validRange >=1.0.0 <1.1.0
+635 silly addNameRange { name: 'core-util-is', range: '>=1.0.0 <1.1.0', hasData: false }
+636 silly mapToRegistry name core-util-is
+637 silly mapToRegistry using default registry
+638 silly mapToRegistry registry https://registry.npmjs.org/
+639 silly mapToRegistry uri https://registry.npmjs.org/core-util-is
+640 verbose addNameRange registry:https://registry.npmjs.org/core-util-is not in flight; fetching
+641 silly gunzTarPerm extractEntry lib/win32/wrappers/security_buffer.cc
+642 silly gunzTarPerm modified mode [ 'lib/win32/wrappers/security_buffer.cc', 420, 438 ]
+643 silly gunzTarPerm extractEntry lib/win32/wrappers/security_buffer.h
+644 silly gunzTarPerm modified mode [ 'lib/win32/wrappers/security_buffer.h', 420, 438 ]
+645 silly gunzTarPerm extractEntry lib/win32/wrappers/security_context.h
+646 silly gunzTarPerm modified mode [ 'lib/win32/wrappers/security_context.h', 420, 438 ]
+647 verbose request uri https://registry.npmjs.org/isarray
+648 verbose request no auth needed
+649 info attempt registry request try #1 at 1:25:16 PM
+650 verbose etag "79XQA3ZXVF5QN0X2VYCD81HMN"
+651 http request GET https://registry.npmjs.org/isarray
+652 verbose request uri https://registry.npmjs.org/string_decoder
+653 verbose request no auth needed
+654 info attempt registry request try #1 at 1:25:16 PM
+655 verbose etag "89NG6AVWTXZBFGLGXXUONULF1"
+656 http request GET https://registry.npmjs.org/string_decoder
+657 verbose request uri https://registry.npmjs.org/inherits
+658 verbose request no auth needed
+659 info attempt registry request try #1 at 1:25:16 PM
+660 verbose etag "2JQ9T5BW10349CYNB2L6ASWW6"
+661 http request GET https://registry.npmjs.org/inherits
+662 verbose request uri https://registry.npmjs.org/core-util-is
+663 verbose request no auth needed
+664 info attempt registry request try #1 at 1:25:16 PM
+665 verbose etag "8N932ER6J79FE9PNV7H41QYLJ"
+666 http request GET https://registry.npmjs.org/core-util-is
+667 silly gunzTarPerm extractEntry lib/win32/wrappers/security_buffer_descriptor.cc
+668 silly gunzTarPerm modified mode [ 'lib/win32/wrappers/security_buffer_descriptor.cc', 420, 438 ]
+669 silly gunzTarPerm extractEntry builderror.log
+670 silly gunzTarPerm modified mode [ 'builderror.log', 420, 438 ]
+671 silly gunzTarPerm extractEntry ext/index.js
+672 silly gunzTarPerm modified mode [ 'ext/index.js', 420, 438 ]
+673 silly gunzTarPerm extractEntry lib/win32/wrappers/security_credentials.cc
+674 silly gunzTarPerm modified mode [ 'lib/win32/wrappers/security_credentials.cc', 420, 438 ]
+675 silly gunzTarPerm extractEntry lib/win32/wrappers/security_credentials.h
+676 silly gunzTarPerm modified mode [ 'lib/win32/wrappers/security_credentials.h', 420, 438 ]
+677 silly gunzTarPerm extractEntry ext/Makefile
+678 silly gunzTarPerm modified mode [ 'ext/Makefile', 420, 438 ]
+679 silly gunzTarPerm extractEntry ext/bson.cc
+680 silly gunzTarPerm modified mode [ 'ext/bson.cc', 420, 438 ]
+681 silly gunzTarPerm extractEntry ext/bson.h
+682 silly gunzTarPerm modified mode [ 'ext/bson.h', 420, 438 ]
+683 silly gunzTarPerm extractEntry lib/win32/wrappers/security_context.cc
+684 silly gunzTarPerm modified mode [ 'lib/win32/wrappers/security_context.cc', 420, 438 ]
+685 silly gunzTarPerm extractEntry lib/worker.cc
+686 silly gunzTarPerm modified mode [ 'lib/worker.cc', 420, 438 ]
+687 silly gunzTarPerm extractEntry lib/worker.h
+688 silly gunzTarPerm modified mode [ 'lib/worker.h', 420, 438 ]
+689 silly gunzTarPerm extractEntry test/kerberos_tests.js
+690 silly gunzTarPerm modified mode [ 'test/kerberos_tests.js', 420, 438 ]
+691 silly gunzTarPerm extractEntry ext/win32/ia32/bson.node
+692 silly gunzTarPerm modified mode [ 'ext/win32/ia32/bson.node', 420, 438 ]
+693 silly gunzTarPerm extractEntry ext/win32/x64/bson.node
+694 silly gunzTarPerm modified mode [ 'ext/win32/x64/bson.node', 420, 438 ]
+695 silly gunzTarPerm extractEntry test/kerberos_win32_test.js
+696 silly gunzTarPerm modified mode [ 'test/kerberos_win32_test.js', 420, 438 ]
+697 silly gunzTarPerm extractEntry test/win32/security_buffer_descriptor_tests.js
+698 silly gunzTarPerm modified mode [ 'test/win32/security_buffer_descriptor_tests.js', 420, 438 ]
+699 silly gunzTarPerm extractEntry test/win32/security_buffer_tests.js
+700 silly gunzTarPerm modified mode [ 'test/win32/security_buffer_tests.js', 420, 438 ]
+701 silly gunzTarPerm extractEntry test/win32/security_credentials_tests.js
+702 silly gunzTarPerm modified mode [ 'test/win32/security_credentials_tests.js', 420, 438 ]
+703 silly gunzTarPerm extractEntry ext/wscript
+704 silly gunzTarPerm modified mode [ 'ext/wscript', 420, 438 ]
+705 silly gunzTarPerm extractEntry lib/bson/binary.js
+706 silly gunzTarPerm modified mode [ 'lib/bson/binary.js', 420, 438 ]
+707 silly gunzTarPerm extractEntry lib/bson/code.js
+708 silly gunzTarPerm modified mode [ 'lib/bson/code.js', 420, 438 ]
+709 silly gunzTarPerm extractEntry lib/bson/db_ref.js
+710 silly gunzTarPerm modified mode [ 'lib/bson/db_ref.js', 420, 438 ]
+711 silly gunzTarPerm extractEntry lib/bson/double.js
+712 silly gunzTarPerm modified mode [ 'lib/bson/double.js', 420, 438 ]
+713 silly gunzTarPerm extractEntry lib/bson/bson_new.js
+714 silly gunzTarPerm modified mode [ 'lib/bson/bson_new.js', 420, 438 ]
+715 silly gunzTarPerm extractEntry lib/bson/index.js
+716 silly gunzTarPerm modified mode [ 'lib/bson/index.js', 420, 438 ]
+717 silly gunzTarPerm extractEntry lib/bson/long.js
+718 silly gunzTarPerm modified mode [ 'lib/bson/long.js', 420, 438 ]
+719 silly gunzTarPerm extractEntry lib/bson/max_key.js
+720 silly gunzTarPerm modified mode [ 'lib/bson/max_key.js', 420, 438 ]
+721 silly gunzTarPerm extractEntry lib/bson/min_key.js
+722 silly gunzTarPerm modified mode [ 'lib/bson/min_key.js', 420, 438 ]
+723 silly gunzTarPerm extractEntry lib/bson/objectid.js
+724 silly gunzTarPerm modified mode [ 'lib/bson/objectid.js', 420, 438 ]
+725 silly gunzTarPerm extractEntry lib/bson/bson.js
+726 silly gunzTarPerm modified mode [ 'lib/bson/bson.js', 420, 438 ]
+727 silly gunzTarPerm extractEntry lib/bson/symbol.js
+728 silly gunzTarPerm modified mode [ 'lib/bson/symbol.js', 420, 438 ]
+729 silly gunzTarPerm extractEntry lib/bson/binary_parser.js
+730 silly gunzTarPerm modified mode [ 'lib/bson/binary_parser.js', 420, 438 ]
+731 silly gunzTarPerm extractEntry lib/bson/timestamp.js
+732 silly gunzTarPerm modified mode [ 'lib/bson/timestamp.js', 420, 438 ]
+733 silly gunzTarPerm extractEntry lib/bson/float_parser.js
+734 silly gunzTarPerm modified mode [ 'lib/bson/float_parser.js', 420, 438 ]
+735 silly gunzTarPerm extractEntry Makefile
+736 silly gunzTarPerm modified mode [ 'Makefile', 420, 438 ]
+737 silly gunzTarPerm extractEntry tools/gleak.js
+738 silly gunzTarPerm modified mode [ 'tools/gleak.js', 420, 438 ]
+739 silly gunzTarPerm extractEntry tools/jasmine-1.1.0/jasmine-html.js
+740 silly gunzTarPerm modified mode [ 'tools/jasmine-1.1.0/jasmine-html.js', 420, 438 ]
+741 silly gunzTarPerm extractEntry tools/jasmine-1.1.0/jasmine.js
+742 silly gunzTarPerm modified mode [ 'tools/jasmine-1.1.0/jasmine.js', 420, 438 ]
+743 silly gunzTarPerm extractEntry tools/jasmine-1.1.0/MIT.LICENSE
+744 silly gunzTarPerm modified mode [ 'tools/jasmine-1.1.0/MIT.LICENSE', 420, 438 ]
+745 silly gunzTarPerm extractEntry tools/jasmine-1.1.0/jasmine.css
+746 silly gunzTarPerm modified mode [ 'tools/jasmine-1.1.0/jasmine.css', 420, 438 ]
+747 silly gunzTarPerm extractEntry tools/jasmine-1.1.0/jasmine_favicon.png
+748 silly gunzTarPerm modified mode [ 'tools/jasmine-1.1.0/jasmine_favicon.png', 420, 438 ]
+749 info preinstall kerberos@0.0.9
+750 silly prepareForInstallMany adding nan@1.6.2 from kerberos dependencies
+751 silly cache add args [ 'nan@1.6.2', null ]
+752 verbose cache add spec nan@1.6.2
+753 silly cache add parsed spec { raw: 'nan@1.6.2',
+753 silly cache add   scope: null,
+753 silly cache add   name: 'nan',
+753 silly cache add   rawSpec: '1.6.2',
+753 silly cache add   spec: '1.6.2',
+753 silly cache add   type: 'version' }
+754 verbose addNamed nan@1.6.2
+755 silly addNamed semver.valid 1.6.2
+756 silly addNamed semver.validRange 1.6.2
+757 silly mapToRegistry name nan
+758 silly mapToRegistry using default registry
+759 silly mapToRegistry registry https://registry.npmjs.org/
+760 silly mapToRegistry uri https://registry.npmjs.org/nan
+761 verbose addNameVersion registry:https://registry.npmjs.org/nan not in flight; fetching
+762 verbose request uri https://registry.npmjs.org/nan
+763 verbose request no auth needed
+764 info attempt registry request try #1 at 1:25:16 PM
+765 verbose etag "2RVNOBUBIPFCFHXKKPTSTKGB8"
+766 http request GET https://registry.npmjs.org/nan
+767 info preinstall bson@0.2.21
+768 silly prepareForInstallMany adding nan@1.7.0 from bson dependencies
+769 silly cache add args [ 'nan@1.7.0', null ]
+770 verbose cache add spec nan@1.7.0
+771 silly cache add parsed spec { raw: 'nan@1.7.0',
+771 silly cache add   scope: null,
+771 silly cache add   name: 'nan',
+771 silly cache add   rawSpec: '1.7.0',
+771 silly cache add   spec: '1.7.0',
+771 silly cache add   type: 'version' }
+772 verbose addNamed nan@1.7.0
+773 silly addNamed semver.valid 1.7.0
+774 silly addNamed semver.validRange 1.7.0
+775 silly mapToRegistry name nan
+776 silly mapToRegistry using default registry
+777 silly mapToRegistry registry https://registry.npmjs.org/
+778 silly mapToRegistry uri https://registry.npmjs.org/nan
+779 verbose addNameVersion registry:https://registry.npmjs.org/nan already in flight; waiting
+780 http 304 https://registry.npmjs.org/isarray
+781 silly get cb [ 304,
+781 silly get   { date: 'Fri, 10 Apr 2015 16:25:14 GMT',
+781 silly get     server: 'Apache',
+781 silly get     via: '1.1 varnish',
+781 silly get     'last-modified': 'Fri, 10 Apr 2015 16:24:41 GMT',
+781 silly get     'cache-control': 'max-age=60',
+781 silly get     etag: '"79XQA3ZXVF5QN0X2VYCD81HMN"',
+781 silly get     age: '50',
+781 silly get     'x-served-by': 'cache-iad2146-IAD',
+781 silly get     'x-cache': 'HIT',
+781 silly get     'x-cache-hits': '5',
+781 silly get     'x-timer': 'S1428683114.713792,VS0,VE0',
+781 silly get     vary: 'Accept',
+781 silly get     'content-length': '0',
+781 silly get     'keep-alive': 'timeout=10, max=50',
+781 silly get     connection: 'Keep-Alive' } ]
+782 verbose etag https://registry.npmjs.org/isarray from cache
+783 verbose get saving isarray to C:\Users\IBM_ADMIN\AppData\Roaming\npm-cache\registry.npmjs.org\isarray\.cache.json
+784 http 304 https://registry.npmjs.org/string_decoder
+785 silly get cb [ 304,
+785 silly get   { date: 'Fri, 10 Apr 2015 16:25:14 GMT',
+785 silly get     server: 'Apache',
+785 silly get     via: '1.1 varnish',
+785 silly get     'last-modified': 'Fri, 10 Apr 2015 16:24:47 GMT',
+785 silly get     'cache-control': 'max-age=60',
+785 silly get     etag: '"89NG6AVWTXZBFGLGXXUONULF1"',
+785 silly get     age: '37',
+785 silly get     'x-served-by': 'cache-iad2136-IAD',
+785 silly get     'x-cache': 'HIT',
+785 silly get     'x-cache-hits': '3',
+785 silly get     'x-timer': 'S1428683114.721461,VS0,VE0',
+785 silly get     vary: 'Accept',
+785 silly get     'content-length': '0',
+785 silly get     'keep-alive': 'timeout=10, max=50',
+785 silly get     connection: 'Keep-Alive' } ]
+786 verbose etag https://registry.npmjs.org/string_decoder from cache
+787 verbose get saving string_decoder to C:\Users\IBM_ADMIN\AppData\Roaming\npm-cache\registry.npmjs.org\string_decoder\.cache.json
+788 silly cache afterAdd isarray@0.0.1
+789 verbose afterAdd C:\Users\IBM_ADMIN\AppData\Roaming\npm-cache\isarray\0.0.1\package\package.json not in flight; writing
+790 verbose afterAdd C:\Users\IBM_ADMIN\AppData\Roaming\npm-cache\isarray\0.0.1\package\package.json written
+791 silly addNameRange number 2 { name: 'string_decoder',
+791 silly addNameRange   range: '>=0.10.0 <0.11.0',
+791 silly addNameRange   hasData: true }
+792 silly addNameRange versions [ 'string_decoder',
+792 silly addNameRange   [ '0.0.0',
+792 silly addNameRange     '0.0.1',
+792 silly addNameRange     '0.10.24',
+792 silly addNameRange     '0.11.10',
+792 silly addNameRange     '0.10.25',
+792 silly addNameRange     '0.11.10-1',
+792 silly addNameRange     '0.10.25-1',
+792 silly addNameRange     '0.10.31' ] ]
+793 verbose addNamed string_decoder@0.10.31
+794 silly addNamed semver.valid 0.10.31
+795 silly addNamed semver.validRange 0.10.31
+796 http 304 https://registry.npmjs.org/core-util-is
+797 silly get cb [ 304,
+797 silly get   { date: 'Fri, 10 Apr 2015 16:25:14 GMT',
+797 silly get     server: 'Apache',
+797 silly get     via: '1.1 varnish',
+797 silly get     'last-modified': 'Fri, 10 Apr 2015 16:24:26 GMT',
+797 silly get     'cache-control': 'max-age=60',
+797 silly get     etag: '"8N932ER6J79FE9PNV7H41QYLJ"',
+797 silly get     age: '52',
+797 silly get     'x-served-by': 'cache-iad2126-IAD',
+797 silly get     'x-cache': 'HIT',
+797 silly get     'x-cache-hits': '7',
+797 silly get     'x-timer': 'S1428683114.724458,VS0,VE0',
+797 silly get     vary: 'Accept',
+797 silly get     'content-length': '0',
+797 silly get     'keep-alive': 'timeout=10, max=50',
+797 silly get     connection: 'Keep-Alive' } ]
+798 verbose etag https://registry.npmjs.org/core-util-is from cache
+799 verbose get saving core-util-is to C:\Users\IBM_ADMIN\AppData\Roaming\npm-cache\registry.npmjs.org\core-util-is\.cache.json
+800 http 304 https://registry.npmjs.org/inherits
+801 silly get cb [ 304,
+801 silly get   { date: 'Fri, 10 Apr 2015 16:25:14 GMT',
+801 silly get     server: 'Apache',
+801 silly get     via: '1.1 varnish',
+801 silly get     'last-modified': 'Fri, 10 Apr 2015 16:24:22 GMT',
+801 silly get     'cache-control': 'max-age=60',
+801 silly get     etag: '"2JQ9T5BW10349CYNB2L6ASWW6"',
+801 silly get     age: '53',
+801 silly get     'x-served-by': 'cache-iad2133-IAD',
+801 silly get     'x-cache': 'HIT',
+801 silly get     'x-cache-hits': '5',
+801 silly get     'x-timer': 'S1428683114.723056,VS0,VE0',
+801 silly get     vary: 'Accept',
+801 silly get     'content-length': '0',
+801 silly get     'keep-alive': 'timeout=10, max=50',
+801 silly get     connection: 'Keep-Alive' } ]
+802 verbose etag https://registry.npmjs.org/inherits from cache
+803 verbose get saving inherits to C:\Users\IBM_ADMIN\AppData\Roaming\npm-cache\registry.npmjs.org\inherits\.cache.json
+804 silly cache afterAdd string_decoder@0.10.31
+805 verbose afterAdd C:\Users\IBM_ADMIN\AppData\Roaming\npm-cache\string_decoder\0.10.31\package\package.json not in flight; writing
+806 silly addNameRange number 2 { name: 'inherits', range: '>=2.0.1 <2.1.0', hasData: true }
+807 silly addNameRange versions [ 'inherits', [ '1.0.0', '2.0.0', '2.0.1' ] ]
+808 verbose addNamed inherits@2.0.1
+809 silly addNamed semver.valid 2.0.1
+810 silly addNamed semver.validRange 2.0.1
+811 verbose afterAdd C:\Users\IBM_ADMIN\AppData\Roaming\npm-cache\string_decoder\0.10.31\package\package.json written
+812 silly addNameRange number 2 { name: 'core-util-is', range: '>=1.0.0 <1.1.0', hasData: true }
+813 silly addNameRange versions [ 'core-util-is', [ '1.0.0', '1.0.1' ] ]
+814 verbose addNamed core-util-is@1.0.1
+815 silly addNamed semver.valid 1.0.1
+816 silly addNamed semver.validRange 1.0.1
+817 silly cache afterAdd inherits@2.0.1
+818 verbose afterAdd C:\Users\IBM_ADMIN\AppData\Roaming\npm-cache\inherits\2.0.1\package\package.json not in flight; writing
+819 verbose afterAdd C:\Users\IBM_ADMIN\AppData\Roaming\npm-cache\inherits\2.0.1\package\package.json written
+820 silly cache afterAdd core-util-is@1.0.1
+821 verbose afterAdd C:\Users\IBM_ADMIN\AppData\Roaming\npm-cache\core-util-is\1.0.1\package\package.json not in flight; writing
+822 verbose afterAdd C:\Users\IBM_ADMIN\AppData\Roaming\npm-cache\core-util-is\1.0.1\package\package.json written
+823 silly install resolved [ { name: 'isarray',
+823 silly install resolved     description: 'Array#isArray for older browsers',
+823 silly install resolved     version: '0.0.1',
+823 silly install resolved     repository:
+823 silly install resolved      { type: 'git',
+823 silly install resolved        url: 'git://github.com/juliangruber/isarray.git' },
+823 silly install resolved     homepage: 'https://github.com/juliangruber/isarray',
+823 silly install resolved     main: 'index.js',
+823 silly install resolved     scripts: { test: 'tap test/*.js' },
+823 silly install resolved     dependencies: {},
+823 silly install resolved     devDependencies: { tap: '*' },
+823 silly install resolved     keywords: [ 'browser', 'isarray', 'array' ],
+823 silly install resolved     author:
+823 silly install resolved      { name: 'Julian Gruber',
+823 silly install resolved        email: 'mail@juliangruber.com',
+823 silly install resolved        url: 'http://juliangruber.com' },
+823 silly install resolved     license: 'MIT',
+823 silly install resolved     _id: 'isarray@0.0.1',
+823 silly install resolved     dist:
+823 silly install resolved      { shasum: '8a18acfca9a8f4177e09abfc6038939b05d1eedf',
+823 silly install resolved        tarball: 'http://registry.npmjs.org/isarray/-/isarray-0.0.1.tgz' },
+823 silly install resolved     _from: 'isarray@0.0.1',
+823 silly install resolved     _npmVersion: '1.2.18',
+823 silly install resolved     _npmUser: { name: 'juliangruber', email: 'julian@juliangruber.com' },
+823 silly install resolved     maintainers: [ [Object] ],
+823 silly install resolved     directories: {},
+823 silly install resolved     _shasum: '8a18acfca9a8f4177e09abfc6038939b05d1eedf',
+823 silly install resolved     _resolved: 'https://registry.npmjs.org/isarray/-/isarray-0.0.1.tgz',
+823 silly install resolved     bugs: { url: 'https://github.com/juliangruber/isarray/issues' },
+823 silly install resolved     readme: 'ERROR: No README data found!' },
+823 silly install resolved   { name: 'string_decoder',
+823 silly install resolved     version: '0.10.31',
+823 silly install resolved     description: 'The string_decoder module from Node core',
+823 silly install resolved     main: 'index.js',
+823 silly install resolved     dependencies: {},
+823 silly install resolved     devDependencies: { tap: '~0.4.8' },
+823 silly install resolved     scripts: { test: 'tap test/simple/*.js' },
+823 silly install resolved     repository:
+823 silly install resolved      { type: 'git',
+823 silly install resolved        url: 'git://github.com/rvagg/string_decoder.git' },
+823 silly install resolved     homepage: 'https://github.com/rvagg/string_decoder',
+823 silly install resolved     keywords: [ 'string', 'decoder', 'browser', 'browserify' ],
+823 silly install resolved     license: 'MIT',
+823 silly install resolved     gitHead: 'd46d4fd87cf1d06e031c23f1ba170ca7d4ade9a0',
+823 silly install resolved     bugs: { url: 'https://github.com/rvagg/string_decoder/issues' },
+823 silly install resolved     _id: 'string_decoder@0.10.31',
+823 silly install resolved     _shasum: '62e203bc41766c6c28c9fc84301dab1c5310fa94',
+823 silly install resolved     _from: 'string_decoder@>=0.10.0 <0.11.0',
+823 silly install resolved     _npmVersion: '1.4.23',
+823 silly install resolved     _npmUser: { name: 'rvagg', email: 'rod@vagg.org' },
+823 silly install resolved     maintainers: [ [Object], [Object] ],
+823 silly install resolved     dist:
+823 silly install resolved      { shasum: '62e203bc41766c6c28c9fc84301dab1c5310fa94',
+823 silly install resolved        tarball: 'http://registry.npmjs.org/string_decoder/-/string_decoder-0.10.31.tgz' },
+823 silly install resolved     directories: {},
+823 silly install resolved     _resolved: 'https://registry.npmjs.org/string_decoder/-/string_decoder-0.10.31.tgz',
+823 silly install resolved     readme: 'ERROR: No README data found!' },
+823 silly install resolved   { name: 'inherits',
+823 silly install resolved     description: 'Browser-friendly inheritance fully compatible with standard node.js inherits()',
+823 silly install resolved     version: '2.0.1',
+823 silly install resolved     keywords:
+823 silly install resolved      [ 'inheritance',
+823 silly install resolved        'class',
+823 silly install resolved        'klass',
+823 silly install resolved        'oop',
+823 silly install resolved        'object-oriented',
+823 silly install resolved        'inherits',
+823 silly install resolved        'browser',
+823 silly install resolved        'browserify' ],
+823 silly install resolved     main: './inherits.js',
+823 silly install resolved     browser: './inherits_browser.js',
+823 silly install resolved     repository: { type: 'git', url: 'git://github.com/isaacs/inherits' },
+823 silly install resolved     license: 'ISC',
+823 silly install resolved     scripts: { test: 'node test' },
+823 silly install resolved     bugs: { url: 'https://github.com/isaacs/inherits/issues' },
+823 silly install resolved     _id: 'inherits@2.0.1',
+823 silly install resolved     dist:
+823 silly install resolved      { shasum: 'b17d08d326b4423e568eff719f91b0b1cbdf69f1',
+823 silly install resolved        tarball: 'http://registry.npmjs.org/inherits/-/inherits-2.0.1.tgz' },
+823 silly install resolved     _from: 'inherits@>=2.0.1 <2.1.0',
+823 silly install resolved     _npmVersion: '1.3.8',
+823 silly install resolved     _npmUser: { name: 'isaacs', email: 'i@izs.me' },
+823 silly install resolved     maintainers: [ [Object] ],
+823 silly install resolved     directories: {},
+823 silly install resolved     _shasum: 'b17d08d326b4423e568eff719f91b0b1cbdf69f1',
+823 silly install resolved     _resolved: 'https://registry.npmjs.org/inherits/-/inherits-2.0.1.tgz',
+823 silly install resolved     readme: 'ERROR: No README data found!',
+823 silly install resolved     homepage: 'https://github.com/isaacs/inherits' },
+823 silly install resolved   { name: 'core-util-is',
+823 silly install resolved     version: '1.0.1',
+823 silly install resolved     description: 'The `util.is*` functions introduced in Node v0.12.',
+823 silly install resolved     main: 'lib/util.js',
+823 silly install resolved     repository: { type: 'git', url: 'git://github.com/isaacs/core-util-is' },
+823 silly install resolved     keywords:
+823 silly install resolved      [ 'util',
+823 silly install resolved        'isBuffer',
+823 silly install resolved        'isArray',
+823 silly install resolved        'isNumber',
+823 silly install resolved        'isString',
+823 silly install resolved        'isRegExp',
+823 silly install resolved        'isThis',
+823 silly install resolved        'isThat',
+823 silly install resolved        'polyfill' ],
+823 silly install resolved     author:
+823 silly install resolved      { name: 'Isaac Z. Schlueter',
+823 silly install resolved        email: 'i@izs.me',
+823 silly install resolved        url: 'http://blog.izs.me/' },
+823 silly install resolved     license: 'MIT',
+823 silly install resolved     bugs: { url: 'https://github.com/isaacs/core-util-is/issues' },
+823 silly install resolved     readme: '# core-util-is\n\nThe `util.is*` functions introduced in Node v0.12.\n',
+823 silly install resolved     readmeFilename: 'README.md',
+823 silly install resolved     homepage: 'https://github.com/isaacs/core-util-is',
+823 silly install resolved     _id: 'core-util-is@1.0.1',
+823 silly install resolved     dist:
+823 silly install resolved      { shasum: '6b07085aef9a3ccac6ee53bf9d3df0c1521a5538',
+823 silly install resolved        tarball: 'http://registry.npmjs.org/core-util-is/-/core-util-is-1.0.1.tgz' },
+823 silly install resolved     _from: 'core-util-is@>=1.0.0 <1.1.0',
+823 silly install resolved     _npmVersion: '1.3.23',
+823 silly install resolved     _npmUser: { name: 'isaacs', email: 'i@izs.me' },
+823 silly install resolved     maintainers: [ [Object] ],
+823 silly install resolved     directories: {},
+823 silly install resolved     _shasum: '6b07085aef9a3ccac6ee53bf9d3df0c1521a5538',
+823 silly install resolved     _resolved: 'https://registry.npmjs.org/core-util-is/-/core-util-is-1.0.1.tgz',
+823 silly install resolved     scripts: {} } ]
+824 info install isarray@0.0.1 into C:\Users\IBM_ADMIN\AppData\Roaming\npm\node_modules\mongodb\node_modules\readable-stream
+825 info install string_decoder@0.10.31 into C:\Users\IBM_ADMIN\AppData\Roaming\npm\node_modules\mongodb\node_modules\readable-stream
+826 info install inherits@2.0.1 into C:\Users\IBM_ADMIN\AppData\Roaming\npm\node_modules\mongodb\node_modules\readable-stream
+827 info install core-util-is@1.0.1 into C:\Users\IBM_ADMIN\AppData\Roaming\npm\node_modules\mongodb\node_modules\readable-stream
+828 info installOne isarray@0.0.1
+829 verbose installOne of isarray to C:\Users\IBM_ADMIN\AppData\Roaming\npm\node_modules\mongodb\node_modules\readable-stream not in flight; installing
+830 info installOne string_decoder@0.10.31
+831 verbose installOne of string_decoder to C:\Users\IBM_ADMIN\AppData\Roaming\npm\node_modules\mongodb\node_modules\readable-stream not in flight; installing
+832 info installOne inherits@2.0.1
+833 verbose installOne of inherits to C:\Users\IBM_ADMIN\AppData\Roaming\npm\node_modules\mongodb\node_modules\readable-stream not in flight; installing
+834 info installOne core-util-is@1.0.1
+835 verbose installOne of core-util-is to C:\Users\IBM_ADMIN\AppData\Roaming\npm\node_modules\mongodb\node_modules\readable-stream not in flight; installing
+836 verbose lock using C:\Users\IBM_ADMIN\AppData\Roaming\npm-cache\_locks\string-decoder-7bb654f63ce1a382.lock for C:\Users\IBM_ADMIN\AppData\Roaming\npm\node_modules\mongodb\node_modules\readable-stream\node_modules\string_decoder
+837 verbose lock using C:\Users\IBM_ADMIN\AppData\Roaming\npm-cache\_locks\inherits-07fdbf63f7409036.lock for C:\Users\IBM_ADMIN\AppData\Roaming\npm\node_modules\mongodb\node_modules\readable-stream\node_modules\inherits
+838 verbose lock using C:\Users\IBM_ADMIN\AppData\Roaming\npm-cache\_locks\isarray-ca6ad6289d64bfb7.lock for C:\Users\IBM_ADMIN\AppData\Roaming\npm\node_modules\mongodb\node_modules\readable-stream\node_modules\isarray
+839 silly install write writing string_decoder 0.10.31 to C:\Users\IBM_ADMIN\AppData\Roaming\npm\node_modules\mongodb\node_modules\readable-stream\node_modules\string_decoder
+840 silly cache addNamed cb string_decoder@0.10.31
+841 verbose unbuild node_modules\mongodb\node_modules\readable-stream\node_modules\string_decoder
+842 silly install write writing isarray 0.0.1 to C:\Users\IBM_ADMIN\AppData\Roaming\npm\node_modules\mongodb\node_modules\readable-stream\node_modules\isarray
+843 silly cache addNamed cb isarray@0.0.1
+844 verbose unbuild node_modules\mongodb\node_modules\readable-stream\node_modules\isarray
+845 verbose lock using C:\Users\IBM_ADMIN\AppData\Roaming\npm-cache\_locks\core-util-is-2eb37c804c6a2e36.lock for C:\Users\IBM_ADMIN\AppData\Roaming\npm\node_modules\mongodb\node_modules\readable-stream\node_modules\core-util-is
+846 silly install write writing core-util-is 1.0.1 to C:\Users\IBM_ADMIN\AppData\Roaming\npm\node_modules\mongodb\node_modules\readable-stream\node_modules\core-util-is
+847 silly cache addNamed cb core-util-is@1.0.1
+848 verbose unbuild node_modules\mongodb\node_modules\readable-stream\node_modules\core-util-is
+849 silly install write writing inherits 2.0.1 to C:\Users\IBM_ADMIN\AppData\Roaming\npm\node_modules\mongodb\node_modules\readable-stream\node_modules\inherits
+850 silly cache addNamed cb inherits@2.0.1
+851 verbose unbuild node_modules\mongodb\node_modules\readable-stream\node_modules\inherits
+852 silly gentlyRm C:\Users\IBM_ADMIN\AppData\Roaming\npm\node_modules\mongodb\node_modules\readable-stream\node_modules\string_decoder is being purged from base C:\Users\IBM_ADMIN\AppData\Roaming\npm
+853 verbose gentlyRm don't care about contents; nuking C:\Users\IBM_ADMIN\AppData\Roaming\npm\node_modules\mongodb\node_modules\readable-stream\node_modules\string_decoder
+854 verbose tar unpack C:\Users\IBM_ADMIN\AppData\Roaming\npm-cache\string_decoder\0.10.31\package.tgz
+855 verbose tar unpacking to C:\Users\IBM_ADMIN\AppData\Roaming\npm\node_modules\mongodb\node_modules\readable-stream\node_modules\string_decoder
+856 silly gentlyRm C:\Users\IBM_ADMIN\AppData\Roaming\npm\node_modules\mongodb\node_modules\readable-stream\node_modules\string_decoder is being purged
+857 verbose gentlyRm don't care about contents; nuking C:\Users\IBM_ADMIN\AppData\Roaming\npm\node_modules\mongodb\node_modules\readable-stream\node_modules\string_decoder
+858 silly gunzTarPerm modes [ '777', '666' ]
+859 silly gentlyRm C:\Users\IBM_ADMIN\AppData\Roaming\npm\node_modules\mongodb\node_modules\readable-stream\node_modules\isarray is being purged from base C:\Users\IBM_ADMIN\AppData\Roaming\npm
+860 verbose gentlyRm don't care about contents; nuking C:\Users\IBM_ADMIN\AppData\Roaming\npm\node_modules\mongodb\node_modules\readable-stream\node_modules\isarray
+861 verbose tar unpack C:\Users\IBM_ADMIN\AppData\Roaming\npm-cache\isarray\0.0.1\package.tgz
+862 verbose tar unpacking to C:\Users\IBM_ADMIN\AppData\Roaming\npm\node_modules\mongodb\node_modules\readable-stream\node_modules\isarray
+863 silly gentlyRm C:\Users\IBM_ADMIN\AppData\Roaming\npm\node_modules\mongodb\node_modules\readable-stream\node_modules\isarray is being purged
+864 verbose gentlyRm don't care about contents; nuking C:\Users\IBM_ADMIN\AppData\Roaming\npm\node_modules\mongodb\node_modules\readable-stream\node_modules\isarray
+865 silly gentlyRm C:\Users\IBM_ADMIN\AppData\Roaming\npm\node_modules\mongodb\node_modules\readable-stream\node_modules\core-util-is is being purged from base C:\Users\IBM_ADMIN\AppData\Roaming\npm
+866 verbose gentlyRm don't care about contents; nuking C:\Users\IBM_ADMIN\AppData\Roaming\npm\node_modules\mongodb\node_modules\readable-stream\node_modules\core-util-is
+867 silly gunzTarPerm modes [ '777', '666' ]
+868 verbose tar unpack C:\Users\IBM_ADMIN\AppData\Roaming\npm-cache\core-util-is\1.0.1\package.tgz
+869 verbose tar unpacking to C:\Users\IBM_ADMIN\AppData\Roaming\npm\node_modules\mongodb\node_modules\readable-stream\node_modules\core-util-is
+870 silly gentlyRm C:\Users\IBM_ADMIN\AppData\Roaming\npm\node_modules\mongodb\node_modules\readable-stream\node_modules\core-util-is is being purged
+871 verbose gentlyRm don't care about contents; nuking C:\Users\IBM_ADMIN\AppData\Roaming\npm\node_modules\mongodb\node_modules\readable-stream\node_modules\core-util-is
+872 silly gunzTarPerm modes [ '777', '666' ]
+873 silly gentlyRm C:\Users\IBM_ADMIN\AppData\Roaming\npm\node_modules\mongodb\node_modules\readable-stream\node_modules\inherits is being purged from base C:\Users\IBM_ADMIN\AppData\Roaming\npm
+874 verbose gentlyRm don't care about contents; nuking C:\Users\IBM_ADMIN\AppData\Roaming\npm\node_modules\mongodb\node_modules\readable-stream\node_modules\inherits
+875 silly gunzTarPerm extractEntry package.json
+876 silly gunzTarPerm modified mode [ 'package.json', 436, 438 ]
+877 verbose tar unpack C:\Users\IBM_ADMIN\AppData\Roaming\npm-cache\inherits\2.0.1\package.tgz
+878 verbose tar unpacking to C:\Users\IBM_ADMIN\AppData\Roaming\npm\node_modules\mongodb\node_modules\readable-stream\node_modules\inherits
+879 silly gentlyRm C:\Users\IBM_ADMIN\AppData\Roaming\npm\node_modules\mongodb\node_modules\readable-stream\node_modules\inherits is being purged
+880 verbose gentlyRm don't care about contents; nuking C:\Users\IBM_ADMIN\AppData\Roaming\npm\node_modules\mongodb\node_modules\readable-stream\node_modules\inherits
+881 silly gunzTarPerm modes [ '777', '666' ]
+882 silly gunzTarPerm extractEntry package.json
+883 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+884 silly gunzTarPerm extractEntry package.json
+885 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+886 silly gunzTarPerm extractEntry .npmignore
+887 silly gunzTarPerm modified mode [ '.npmignore', 436, 438 ]
+888 silly gunzTarPerm extractEntry README.md
+889 silly gunzTarPerm modified mode [ 'README.md', 436, 438 ]
+890 silly gunzTarPerm extractEntry README.md
+891 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+892 silly gunzTarPerm extractEntry util.js
+893 silly gunzTarPerm modified mode [ 'util.js', 420, 438 ]
+894 silly gunzTarPerm extractEntry README.md
+895 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+896 silly gunzTarPerm extractEntry index.js
+897 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+898 silly gunzTarPerm extractEntry package.json
+899 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+900 silly gunzTarPerm extractEntry README.md
+901 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+902 silly gunzTarPerm extractEntry LICENSE
+903 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+904 silly gunzTarPerm extractEntry LICENSE
+905 silly gunzTarPerm modified mode [ 'LICENSE', 436, 438 ]
+906 silly gunzTarPerm extractEntry index.js
+907 silly gunzTarPerm modified mode [ 'index.js', 436, 438 ]
+908 silly gunzTarPerm extractEntry float.patch
+909 silly gunzTarPerm modified mode [ 'float.patch', 420, 438 ]
+910 silly gunzTarPerm extractEntry lib/util.js
+911 silly gunzTarPerm modified mode [ 'lib/util.js', 420, 438 ]
+912 silly gunzTarPerm extractEntry build/build.js
+913 silly gunzTarPerm modified mode [ 'build/build.js', 420, 438 ]
+914 silly gunzTarPerm extractEntry component.json
+915 silly gunzTarPerm modified mode [ 'component.json', 420, 438 ]
+916 silly gunzTarPerm extractEntry inherits.js
+917 silly gunzTarPerm modified mode [ 'inherits.js', 420, 438 ]
+918 silly gunzTarPerm extractEntry inherits_browser.js
+919 silly gunzTarPerm modified mode [ 'inherits_browser.js', 420, 438 ]
+920 silly gunzTarPerm extractEntry test.js
+921 silly gunzTarPerm modified mode [ 'test.js', 420, 438 ]
+922 http 304 https://registry.npmjs.org/nan
+923 silly get cb [ 304,
+923 silly get   { date: 'Fri, 10 Apr 2015 16:25:14 GMT',
+923 silly get     server: 'Apache',
+923 silly get     via: '1.1 varnish',
+923 silly get     'last-modified': 'Fri, 10 Apr 2015 16:24:15 GMT',
+923 silly get     'cache-control': 'max-age=60',
+923 silly get     etag: '"2RVNOBUBIPFCFHXKKPTSTKGB8"',
+923 silly get     age: '60',
+923 silly get     'x-served-by': 'cache-iad2121-IAD',
+923 silly get     'x-cache': 'HIT',
+923 silly get     'x-cache-hits': '3',
+923 silly get     'x-timer': 'S1428683114.784116,VS0,VE0',
+923 silly get     vary: 'Accept',
+923 silly get     'content-length': '0',
+923 silly get     'keep-alive': 'timeout=10, max=50',
+923 silly get     connection: 'Keep-Alive' } ]
+924 verbose etag https://registry.npmjs.org/nan from cache
+925 verbose get saving nan to C:\Users\IBM_ADMIN\AppData\Roaming\npm-cache\registry.npmjs.org\nan\.cache.json
+926 info preinstall string_decoder@0.10.31
+927 silly mapToRegistry name nan
+928 silly mapToRegistry using default registry
+929 silly mapToRegistry registry https://registry.npmjs.org/
+930 silly mapToRegistry uri https://registry.npmjs.org/nan
+931 verbose addRemoteTarball https://registry.npmjs.org/nan/-/nan-1.6.2.tgz not in flight; adding
+932 verbose addRemoteTarball [ 'https://registry.npmjs.org/nan/-/nan-1.6.2.tgz',
+932 verbose addRemoteTarball   '2657d1c43b00f1e847e083832285b7d8f5ba8ec8' ]
+933 info preinstall isarray@0.0.1
+934 info retry fetch attempt 1 at 1:25:16 PM
+935 info attempt registry request try #1 at 1:25:16 PM
+936 http fetch GET https://registry.npmjs.org/nan/-/nan-1.6.2.tgz
+937 silly install resolved []
+938 verbose about to build C:\Users\IBM_ADMIN\AppData\Roaming\npm\node_modules\mongodb\node_modules\readable-stream\node_modules\string_decoder
+939 info build C:\Users\IBM_ADMIN\AppData\Roaming\npm\node_modules\mongodb\node_modules\readable-stream\node_modules\string_decoder
+940 verbose linkStuff [ true,
+940 verbose linkStuff   'C:\\Users\\IBM_ADMIN\\AppData\\Roaming\\npm\\node_modules',
+940 verbose linkStuff   false,
+940 verbose linkStuff   'C:\\Users\\IBM_ADMIN\\AppData\\Roaming\\npm\\node_modules\\mongodb\\node_modules\\readable-stream\\node_modules' ]
+941 info linkStuff string_decoder@0.10.31
+942 verbose linkBins string_decoder@0.10.31
+943 verbose linkMans string_decoder@0.10.31
+944 verbose rebuildBundles string_decoder@0.10.31
+945 silly cache afterAdd nan@1.7.0
+946 verbose afterAdd C:\Users\IBM_ADMIN\AppData\Roaming\npm-cache\nan\1.7.0\package\package.json not in flight; writing
+947 info preinstall inherits@2.0.1
+948 silly install resolved []
+949 verbose about to build C:\Users\IBM_ADMIN\AppData\Roaming\npm\node_modules\mongodb\node_modules\readable-stream\node_modules\isarray
+950 info build C:\Users\IBM_ADMIN\AppData\Roaming\npm\node_modules\mongodb\node_modules\readable-stream\node_modules\isarray
+951 verbose linkStuff [ true,
+951 verbose linkStuff   'C:\\Users\\IBM_ADMIN\\AppData\\Roaming\\npm\\node_modules',
+951 verbose linkStuff   false,
+951 verbose linkStuff   'C:\\Users\\IBM_ADMIN\\AppData\\Roaming\\npm\\node_modules\\mongodb\\node_modules\\readable-stream\\node_modules' ]
+952 info linkStuff isarray@0.0.1
+953 verbose linkBins isarray@0.0.1
+954 verbose linkMans isarray@0.0.1
+955 verbose rebuildBundles isarray@0.0.1
+956 info install string_decoder@0.10.31
+957 info install isarray@0.0.1
+958 info postinstall string_decoder@0.10.31
+959 info postinstall isarray@0.0.1
+960 silly install resolved []
+961 verbose about to build C:\Users\IBM_ADMIN\AppData\Roaming\npm\node_modules\mongodb\node_modules\readable-stream\node_modules\inherits
+962 info build C:\Users\IBM_ADMIN\AppData\Roaming\npm\node_modules\mongodb\node_modules\readable-stream\node_modules\inherits
+963 verbose linkStuff [ true,
+963 verbose linkStuff   'C:\\Users\\IBM_ADMIN\\AppData\\Roaming\\npm\\node_modules',
+963 verbose linkStuff   false,
+963 verbose linkStuff   'C:\\Users\\IBM_ADMIN\\AppData\\Roaming\\npm\\node_modules\\mongodb\\node_modules\\readable-stream\\node_modules' ]
+964 info linkStuff inherits@2.0.1
+965 verbose linkBins inherits@2.0.1
+966 verbose linkMans inherits@2.0.1
+967 verbose rebuildBundles inherits@2.0.1
+968 verbose afterAdd C:\Users\IBM_ADMIN\AppData\Roaming\npm-cache\nan\1.7.0\package\package.json written
+969 silly install resolved [ { name: 'nan',
+969 silly install resolved     version: '1.7.0',
+969 silly install resolved     description: 'Native Abstractions for Node.js: C++ header for Node 0.8->0.12 compatibility',
+969 silly install resolved     main: 'include_dirs.js',
+969 silly install resolved     repository: { type: 'git', url: 'git://github.com/rvagg/nan.git' },
+969 silly install resolved     scripts:
+969 silly install resolved      { test: 'tap --gc test/js/*-test.js',
+969 silly install resolved        'rebuild-tests': 'pangyp rebuild --directory test' },
+969 silly install resolved     contributors:
+969 silly install resolved      [ [Object],
+969 silly install resolved        [Object],
+969 silly install resolved        [Object],
+969 silly install resolved        [Object],
+969 silly install resolved        [Object],
+969 silly install resolved        [Object],
+969 silly install resolved        [Object] ],
+969 silly install resolved     devDependencies:
+969 silly install resolved      { bindings: '~1.2.1',
+969 silly install resolved        'node-gyp': '~1.0.2',
+969 silly install resolved        pangyp: '~2.0.1',
+969 silly install resolved        tap: '~0.5.0',
+969 silly install resolved        xtend: '~4.0.0' },
+969 silly install resolved     license: 'MIT',
+969 silly install resolved     gitHead: '550efb5dde5cb6bf79db87ab48dce850e56e971a',
+969 silly install resolved     bugs: { url: 'https://github.com/rvagg/nan/issues' },
+969 silly install resolved     homepage: 'https://github.com/rvagg/nan',
+969 silly install resolved     _id: 'nan@1.7.0',
+969 silly install resolved     _shasum: '755b997404e83cbe7bc08bc3c5c56291bce87438',
+969 silly install resolved     _from: 'nan@1.7.0',
+969 silly install resolved     _npmVersion: '2.5.1',
+969 silly install resolved     _nodeVersion: '0.12.0',
+969 silly install resolved     _npmUser: { name: 'kkoopa', email: 'bbyholm@abo.fi' },
+969 silly install resolved     maintainers: [ [Object], [Object] ],
+969 silly install resolved     dist:
+969 silly install resolved      { shasum: '755b997404e83cbe7bc08bc3c5c56291bce87438',
+969 silly install resolved        tarball: 'http://registry.npmjs.org/nan/-/nan-1.7.0.tgz' },
+969 silly install resolved     directories: {},
+969 silly install resolved     _resolved: 'https://registry.npmjs.org/nan/-/nan-1.7.0.tgz',
+969 silly install resolved     readme: 'ERROR: No README data found!' } ]
+970 info install nan@1.7.0 into C:\Users\IBM_ADMIN\AppData\Roaming\npm\node_modules\mongodb\node_modules\bson
+971 info installOne nan@1.7.0
+972 verbose installOne of nan to C:\Users\IBM_ADMIN\AppData\Roaming\npm\node_modules\mongodb\node_modules\bson not in flight; installing
+973 info install inherits@2.0.1
+974 verbose unlock done using C:\Users\IBM_ADMIN\AppData\Roaming\npm-cache\_locks\string-decoder-7bb654f63ce1a382.lock for C:\Users\IBM_ADMIN\AppData\Roaming\npm\node_modules\mongodb\node_modules\readable-stream\node_modules\string_decoder
+975 verbose unlock done using C:\Users\IBM_ADMIN\AppData\Roaming\npm-cache\_locks\isarray-ca6ad6289d64bfb7.lock for C:\Users\IBM_ADMIN\AppData\Roaming\npm\node_modules\mongodb\node_modules\readable-stream\node_modules\isarray
+976 info postinstall inherits@2.0.1
+977 verbose lock using C:\Users\IBM_ADMIN\AppData\Roaming\npm-cache\_locks\nan-69f091b98433d961.lock for C:\Users\IBM_ADMIN\AppData\Roaming\npm\node_modules\mongodb\node_modules\bson\node_modules\nan
+978 info preinstall core-util-is@1.0.1
+979 silly install write writing nan 1.7.0 to C:\Users\IBM_ADMIN\AppData\Roaming\npm\node_modules\mongodb\node_modules\bson\node_modules\nan
+980 silly cache addNamed cb nan@1.7.0
+981 verbose unbuild node_modules\mongodb\node_modules\bson\node_modules\nan
+982 verbose unlock done using C:\Users\IBM_ADMIN\AppData\Roaming\npm-cache\_locks\inherits-07fdbf63f7409036.lock for C:\Users\IBM_ADMIN\AppData\Roaming\npm\node_modules\mongodb\node_modules\readable-stream\node_modules\inherits
+983 silly install resolved []
+984 verbose about to build C:\Users\IBM_ADMIN\AppData\Roaming\npm\node_modules\mongodb\node_modules\readable-stream\node_modules\core-util-is
+985 info build C:\Users\IBM_ADMIN\AppData\Roaming\npm\node_modules\mongodb\node_modules\readable-stream\node_modules\core-util-is
+986 verbose linkStuff [ true,
+986 verbose linkStuff   'C:\\Users\\IBM_ADMIN\\AppData\\Roaming\\npm\\node_modules',
+986 verbose linkStuff   false,
+986 verbose linkStuff   'C:\\Users\\IBM_ADMIN\\AppData\\Roaming\\npm\\node_modules\\mongodb\\node_modules\\readable-stream\\node_modules' ]
+987 info linkStuff core-util-is@1.0.1
+988 verbose linkBins core-util-is@1.0.1
+989 verbose linkMans core-util-is@1.0.1
+990 verbose rebuildBundles core-util-is@1.0.1
+991 info install core-util-is@1.0.1
+992 silly gentlyRm C:\Users\IBM_ADMIN\AppData\Roaming\npm\node_modules\mongodb\node_modules\bson\node_modules\nan is being purged from base C:\Users\IBM_ADMIN\AppData\Roaming\npm
+993 verbose gentlyRm don't care about contents; nuking C:\Users\IBM_ADMIN\AppData\Roaming\npm\node_modules\mongodb\node_modules\bson\node_modules\nan
+994 verbose tar unpack C:\Users\IBM_ADMIN\AppData\Roaming\npm-cache\nan\1.7.0\package.tgz
+995 verbose tar unpacking to C:\Users\IBM_ADMIN\AppData\Roaming\npm\node_modules\mongodb\node_modules\bson\node_modules\nan
+996 silly gentlyRm C:\Users\IBM_ADMIN\AppData\Roaming\npm\node_modules\mongodb\node_modules\bson\node_modules\nan is being purged
+997 verbose gentlyRm don't care about contents; nuking C:\Users\IBM_ADMIN\AppData\Roaming\npm\node_modules\mongodb\node_modules\bson\node_modules\nan
+998 info postinstall core-util-is@1.0.1
+999 silly gunzTarPerm modes [ '777', '666' ]
+1000 verbose unlock done using C:\Users\IBM_ADMIN\AppData\Roaming\npm-cache\_locks\core-util-is-2eb37c804c6a2e36.lock for C:\Users\IBM_ADMIN\AppData\Roaming\npm\node_modules\mongodb\node_modules\readable-stream\node_modules\core-util-is
+1001 verbose about to build C:\Users\IBM_ADMIN\AppData\Roaming\npm\node_modules\mongodb\node_modules\readable-stream
+1002 info build C:\Users\IBM_ADMIN\AppData\Roaming\npm\node_modules\mongodb\node_modules\readable-stream
+1003 verbose linkStuff [ true,
+1003 verbose linkStuff   'C:\\Users\\IBM_ADMIN\\AppData\\Roaming\\npm\\node_modules',
+1003 verbose linkStuff   false,
+1003 verbose linkStuff   'C:\\Users\\IBM_ADMIN\\AppData\\Roaming\\npm\\node_modules\\mongodb\\node_modules' ]
+1004 info linkStuff readable-stream@1.0.33
+1005 verbose linkBins readable-stream@1.0.33
+1006 verbose linkMans readable-stream@1.0.33
+1007 verbose rebuildBundles readable-stream@1.0.33
+1008 verbose rebuildBundles [ 'core-util-is', 'inherits', 'isarray', 'string_decoder' ]
+1009 info install readable-stream@1.0.33
+1010 silly gunzTarPerm extractEntry package.json
+1011 silly gunzTarPerm modified mode [ 'package.json', 436, 438 ]
+1012 info postinstall readable-stream@1.0.33
+1013 verbose unlock done using C:\Users\IBM_ADMIN\AppData\Roaming\npm-cache\_locks\readable-stream-467427665796d97f.lock for C:\Users\IBM_ADMIN\AppData\Roaming\npm\node_modules\mongodb\node_modules\readable-stream
+1014 silly gunzTarPerm extractEntry include_dirs.js
+1015 silly gunzTarPerm modified mode [ 'include_dirs.js', 436, 438 ]
+1016 silly gunzTarPerm extractEntry LICENSE.md
+1017 silly gunzTarPerm modified mode [ 'LICENSE.md', 436, 438 ]
+1018 silly gunzTarPerm extractEntry .dntrc
+1019 silly gunzTarPerm modified mode [ '.dntrc', 436, 438 ]
+1020 silly gunzTarPerm extractEntry appveyor.yml
+1021 silly gunzTarPerm modified mode [ 'appveyor.yml', 436, 438 ]
+1022 silly gunzTarPerm extractEntry nan.h
+1023 silly gunzTarPerm modified mode [ 'nan.h', 436, 438 ]
+1024 silly gunzTarPerm extractEntry nan_implementation_12_inl.h
+1025 silly gunzTarPerm modified mode [ 'nan_implementation_12_inl.h', 436, 438 ]
+1026 silly gunzTarPerm extractEntry nan_implementation_pre_12_inl.h
+1027 silly gunzTarPerm modified mode [ 'nan_implementation_pre_12_inl.h', 436, 438 ]
+1028 silly gunzTarPerm extractEntry nan_new.h
+1029 silly gunzTarPerm modified mode [ 'nan_new.h', 436, 438 ]
+1030 silly gunzTarPerm extractEntry nan_string_bytes.h
+1031 silly gunzTarPerm modified mode [ 'nan_string_bytes.h', 436, 438 ]
+1032 silly gunzTarPerm extractEntry CHANGELOG.md
+1033 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 436, 438 ]
+1034 info preinstall nan@1.7.0
+1035 silly install resolved []
+1036 verbose about to build C:\Users\IBM_ADMIN\AppData\Roaming\npm\node_modules\mongodb\node_modules\bson\node_modules\nan
+1037 info build C:\Users\IBM_ADMIN\AppData\Roaming\npm\node_modules\mongodb\node_modules\bson\node_modules\nan
+1038 verbose linkStuff [ true,
+1038 verbose linkStuff   'C:\\Users\\IBM_ADMIN\\AppData\\Roaming\\npm\\node_modules',
+1038 verbose linkStuff   false,
+1038 verbose linkStuff   'C:\\Users\\IBM_ADMIN\\AppData\\Roaming\\npm\\node_modules\\mongodb\\node_modules\\bson\\node_modules' ]
+1039 info linkStuff nan@1.7.0
+1040 verbose linkBins nan@1.7.0
+1041 verbose linkMans nan@1.7.0
+1042 verbose rebuildBundles nan@1.7.0
+1043 info install nan@1.7.0
+1044 info postinstall nan@1.7.0
+1045 verbose unlock done using C:\Users\IBM_ADMIN\AppData\Roaming\npm-cache\_locks\nan-69f091b98433d961.lock for C:\Users\IBM_ADMIN\AppData\Roaming\npm\node_modules\mongodb\node_modules\bson\node_modules\nan
+1046 verbose about to build C:\Users\IBM_ADMIN\AppData\Roaming\npm\node_modules\mongodb\node_modules\bson
+1047 info build C:\Users\IBM_ADMIN\AppData\Roaming\npm\node_modules\mongodb\node_modules\bson
+1048 verbose linkStuff [ true,
+1048 verbose linkStuff   'C:\\Users\\IBM_ADMIN\\AppData\\Roaming\\npm\\node_modules',
+1048 verbose linkStuff   false,
+1048 verbose linkStuff   'C:\\Users\\IBM_ADMIN\\AppData\\Roaming\\npm\\node_modules\\mongodb\\node_modules' ]
+1049 info linkStuff bson@0.2.21
+1050 verbose linkBins bson@0.2.21
+1051 verbose linkMans bson@0.2.21
+1052 verbose rebuildBundles bson@0.2.21
+1053 verbose rebuildBundles [ 'nan' ]
+1054 info install bson@0.2.21
+1055 verbose unsafe-perm in lifecycle true
+1056 http fetch 200 https://registry.npmjs.org/nan/-/nan-1.6.2.tgz
+1057 silly fetchAndShaCheck shasum 2657d1c43b00f1e847e083832285b7d8f5ba8ec8
+1058 verbose addTmpTarball C:\Users\IBM_AD~1\AppData\Local\Temp\npm-8736-47d2e3bf\registry.npmjs.org\nan\-\nan-1.6.2.tgz not in flight; adding
+1059 verbose addTmpTarball already have metadata; skipping unpack for nan@1.6.2
+1060 silly cache afterAdd nan@1.6.2
+1061 verbose afterAdd C:\Users\IBM_ADMIN\AppData\Roaming\npm-cache\nan\1.6.2\package\package.json not in flight; writing
+1062 verbose afterAdd C:\Users\IBM_ADMIN\AppData\Roaming\npm-cache\nan\1.6.2\package\package.json written
+1063 silly install resolved [ { name: 'nan',
+1063 silly install resolved     version: '1.6.2',
+1063 silly install resolved     description: 'Native Abstractions for Node.js: C++ header for Node 0.8->0.12 compatibility',
+1063 silly install resolved     main: 'include_dirs.js',
+1063 silly install resolved     repository: { type: 'git', url: 'git://github.com/rvagg/nan.git' },
+1063 silly install resolved     scripts:
+1063 silly install resolved      { test: 'tap --gc test/js/*-test.js',
+1063 silly install resolved        'rebuild-tests': 'pangyp rebuild --directory test' },
+1063 silly install resolved     contributors:
+1063 silly install resolved      [ [Object],
+1063 silly install resolved        [Object],
+1063 silly install resolved        [Object],
+1063 silly install resolved        [Object],
+1063 silly install resolved        [Object],
+1063 silly install resolved        [Object],
+1063 silly install resolved        [Object] ],
+1063 silly install resolved     devDependencies:
+1063 silly install resolved      { bindings: '~1.2.1',
+1063 silly install resolved        'node-gyp': '~1.0.2',
+1063 silly install resolved        pangyp: '~2.0.1',
+1063 silly install resolved        tap: '~0.5.0',
+1063 silly install resolved        xtend: '~4.0.0' },
+1063 silly install resolved     license: 'MIT',
+1063 silly install resolved     gitHead: 'ab0e5eed8d4aa36111bf8f44cf75644ece327e98',
+1063 silly install resolved     bugs: { url: 'https://github.com/rvagg/nan/issues' },
+1063 silly install resolved     homepage: 'https://github.com/rvagg/nan',
+1063 silly install resolved     _id: 'nan@1.6.2',
+1063 silly install resolved     _shasum: '2657d1c43b00f1e847e083832285b7d8f5ba8ec8',
+1063 silly install resolved     _from: 'nan@1.6.2',
+1063 silly install resolved     _npmVersion: '2.0.0',
+1063 silly install resolved     _npmUser: { name: 'kkoopa', email: 'bbyholm@abo.fi' },
+1063 silly install resolved     maintainers: [ [Object], [Object] ],
+1063 silly install resolved     dist:
+1063 silly install resolved      { shasum: '2657d1c43b00f1e847e083832285b7d8f5ba8ec8',
+1063 silly install resolved        tarball: 'http://registry.npmjs.org/nan/-/nan-1.6.2.tgz' },
+1063 silly install resolved     directories: {},
+1063 silly install resolved     _resolved: 'https://registry.npmjs.org/nan/-/nan-1.6.2.tgz' } ]
+1064 info install nan@1.6.2 into C:\Users\IBM_ADMIN\AppData\Roaming\npm\node_modules\mongodb\node_modules\kerberos
+1065 info installOne nan@1.6.2
+1066 verbose installOne of nan to C:\Users\IBM_ADMIN\AppData\Roaming\npm\node_modules\mongodb\node_modules\kerberos not in flight; installing
+1067 verbose lock using C:\Users\IBM_ADMIN\AppData\Roaming\npm-cache\_locks\nan-7c09e0ac66b60ef8.lock for C:\Users\IBM_ADMIN\AppData\Roaming\npm\node_modules\mongodb\node_modules\kerberos\node_modules\nan
+1068 silly install write writing nan 1.6.2 to C:\Users\IBM_ADMIN\AppData\Roaming\npm\node_modules\mongodb\node_modules\kerberos\node_modules\nan
+1069 silly cache addNamed cb nan@1.6.2
+1070 verbose unbuild node_modules\mongodb\node_modules\kerberos\node_modules\nan
+1071 silly gentlyRm C:\Users\IBM_ADMIN\AppData\Roaming\npm\node_modules\mongodb\node_modules\kerberos\node_modules\nan is being purged from base C:\Users\IBM_ADMIN\AppData\Roaming\npm
+1072 verbose gentlyRm don't care about contents; nuking C:\Users\IBM_ADMIN\AppData\Roaming\npm\node_modules\mongodb\node_modules\kerberos\node_modules\nan
+1073 verbose tar unpack C:\Users\IBM_ADMIN\AppData\Roaming\npm-cache\nan\1.6.2\package.tgz
+1074 verbose tar unpacking to C:\Users\IBM_ADMIN\AppData\Roaming\npm\node_modules\mongodb\node_modules\kerberos\node_modules\nan
+1075 silly gentlyRm C:\Users\IBM_ADMIN\AppData\Roaming\npm\node_modules\mongodb\node_modules\kerberos\node_modules\nan is being purged
+1076 verbose gentlyRm don't care about contents; nuking C:\Users\IBM_ADMIN\AppData\Roaming\npm\node_modules\mongodb\node_modules\kerberos\node_modules\nan
+1077 silly gunzTarPerm modes [ '777', '666' ]
+1078 silly gunzTarPerm extractEntry package.json
+1079 silly gunzTarPerm modified mode [ 'package.json', 436, 438 ]
+1080 silly gunzTarPerm extractEntry include_dirs.js
+1081 silly gunzTarPerm modified mode [ 'include_dirs.js', 436, 438 ]
+1082 silly gunzTarPerm extractEntry LICENSE.md
+1083 silly gunzTarPerm modified mode [ 'LICENSE.md', 436, 438 ]
+1084 silly gunzTarPerm extractEntry .dntrc
+1085 silly gunzTarPerm modified mode [ '.dntrc', 436, 438 ]
+1086 silly gunzTarPerm extractEntry appveyor.yml
+1087 silly gunzTarPerm modified mode [ 'appveyor.yml', 436, 438 ]
+1088 silly gunzTarPerm extractEntry nan.h
+1089 silly gunzTarPerm modified mode [ 'nan.h', 436, 438 ]
+1090 silly gunzTarPerm extractEntry nan_implementation_12_inl.h
+1091 silly gunzTarPerm modified mode [ 'nan_implementation_12_inl.h', 436, 438 ]
+1092 silly gunzTarPerm extractEntry nan_implementation_pre_12_inl.h
+1093 silly gunzTarPerm modified mode [ 'nan_implementation_pre_12_inl.h', 436, 438 ]
+1094 silly gunzTarPerm extractEntry nan_new.h
+1095 silly gunzTarPerm modified mode [ 'nan_new.h', 436, 438 ]
+1096 silly gunzTarPerm extractEntry nan_string_bytes.h
+1097 silly gunzTarPerm modified mode [ 'nan_string_bytes.h', 436, 438 ]
+1098 silly gunzTarPerm extractEntry CHANGELOG.md
+1099 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 436, 438 ]
+1100 info preinstall nan@1.6.2
+1101 silly install resolved []
+1102 verbose about to build C:\Users\IBM_ADMIN\AppData\Roaming\npm\node_modules\mongodb\node_modules\kerberos\node_modules\nan
+1103 info build C:\Users\IBM_ADMIN\AppData\Roaming\npm\node_modules\mongodb\node_modules\kerberos\node_modules\nan
+1104 verbose linkStuff [ true,
+1104 verbose linkStuff   'C:\\Users\\IBM_ADMIN\\AppData\\Roaming\\npm\\node_modules',
+1104 verbose linkStuff   false,
+1104 verbose linkStuff   'C:\\Users\\IBM_ADMIN\\AppData\\Roaming\\npm\\node_modules\\mongodb\\node_modules\\kerberos\\node_modules' ]
+1105 info linkStuff nan@1.6.2
+1106 verbose linkBins nan@1.6.2
+1107 verbose linkMans nan@1.6.2
+1108 verbose rebuildBundles nan@1.6.2
+1109 info install nan@1.6.2
+1110 info postinstall nan@1.6.2
+1111 verbose unlock done using C:\Users\IBM_ADMIN\AppData\Roaming\npm-cache\_locks\nan-7c09e0ac66b60ef8.lock for C:\Users\IBM_ADMIN\AppData\Roaming\npm\node_modules\mongodb\node_modules\kerberos\node_modules\nan
+1112 verbose about to build C:\Users\IBM_ADMIN\AppData\Roaming\npm\node_modules\mongodb\node_modules\kerberos
+1113 info build C:\Users\IBM_ADMIN\AppData\Roaming\npm\node_modules\mongodb\node_modules\kerberos
+1114 verbose linkStuff [ true,
+1114 verbose linkStuff   'C:\\Users\\IBM_ADMIN\\AppData\\Roaming\\npm\\node_modules',
+1114 verbose linkStuff   false,
+1114 verbose linkStuff   'C:\\Users\\IBM_ADMIN\\AppData\\Roaming\\npm\\node_modules\\mongodb\\node_modules' ]
+1115 info linkStuff kerberos@0.0.9
+1116 verbose linkBins kerberos@0.0.9
+1117 verbose linkMans kerberos@0.0.9
+1118 verbose rebuildBundles kerberos@0.0.9
+1119 verbose rebuildBundles [ 'nan' ]
+1120 info install kerberos@0.0.9
+1121 verbose unsafe-perm in lifecycle true
+1122 info postinstall bson@0.2.21
+1123 verbose unlock done using C:\Users\IBM_ADMIN\AppData\Roaming\npm-cache\_locks\bson-431a95c8d87011bf.lock for C:\Users\IBM_ADMIN\AppData\Roaming\npm\node_modules\mongodb\node_modules\bson
+1124 info postinstall kerberos@0.0.9
+1125 verbose unlock done using C:\Users\IBM_ADMIN\AppData\Roaming\npm-cache\_locks\kerberos-5ab45fc92e59f2d1.lock for C:\Users\IBM_ADMIN\AppData\Roaming\npm\node_modules\mongodb\node_modules\kerberos
+1126 verbose about to build C:\Users\IBM_ADMIN\AppData\Roaming\npm\node_modules\mongodb
+1127 info build C:\Users\IBM_ADMIN\AppData\Roaming\npm\node_modules\mongodb
+1128 verbose linkStuff [ true,
+1128 verbose linkStuff   'C:\\Users\\IBM_ADMIN\\AppData\\Roaming\\npm\\node_modules',
+1128 verbose linkStuff   true,
+1128 verbose linkStuff   'C:\\Users\\IBM_ADMIN\\AppData\\Roaming\\npm\\node_modules' ]
+1129 info linkStuff mongodb@1.4.35
+1130 verbose linkBins mongodb@1.4.35
+1131 verbose linkMans mongodb@1.4.35
+1132 verbose rebuildBundles mongodb@1.4.35
+1133 verbose rebuildBundles [ 'bson', 'kerberos', 'readable-stream' ]
+1134 info install mongodb@1.4.35
+1135 info postinstall mongodb@1.4.35
+1136 verbose unlock done using C:\Users\IBM_ADMIN\AppData\Roaming\npm-cache\_locks\mongodb-9ef58f3718ad5bfd.lock for C:\Users\IBM_ADMIN\AppData\Roaming\npm\node_modules\mongodb
+1137 verbose unlock done using C:\Users\IBM_ADMIN\AppData\Roaming\npm-cache\_locks\mongoskin-fed001007508ed40.lock for C:\Users\IBM_ADMIN\AppData\Roaming\npm\node_modules\mongoskin
+1138 verbose stack Error: The package mongodb does not satisfy its siblings' peerDependencies requirements!
+1138 verbose stack     at C:\Program Files\nodejs\node_modules\npm\lib\install.js:125:32
+1138 verbose stack     at C:\Program Files\nodejs\node_modules\npm\lib\install.js:264:7
+1138 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:138:5
+1138 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:251:14
+1138 verbose stack     at cb (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:47:24)
+1138 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:251:14
+1138 verbose stack     at cb (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:47:24)
+1138 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:251:14
+1138 verbose stack     at cb (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:47:24)
+1138 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:251:14
+1139 verbose cwd C:\Users\IBM_ADMIN\nodemongo
+1140 error Windows_NT 6.1.7601
+1141 error argv "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "-g" "mongoskin"
+1142 error node v0.12.2
+1143 error npm  v2.7.4
+1144 error code EPEERINVALID
+1145 error peerinvalid The package mongodb does not satisfy its siblings' peerDependencies requirements!
+1145 error peerinvalid Peer mongoskin@1.4.13 wants mongodb@~1.4
+1146 verbose exit [ 1, true ]
